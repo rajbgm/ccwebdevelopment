@@ -1,0 +1,461 @@
+@function convert($pixels, $unit: em) {
+	@return #{$pixels/16}$unit;
+}
+
+@function strip-unit($number) {
+	@if type-of($number) == "number" and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	}
+	@return $number;
+}
+
+@function percent($px, $width: $wrapperWidth) {
+	@return calc(($px / strip-unit($width)) * 100%);
+}
+
+@mixin absoluteWrapper($width: $wrapperWidth, $bp: $mobileL) {
+	position: absolute;
+	width: $width;
+	@media (min-width: calc($bp + 1px)) {
+		left: calc(50vw - ($width / 2));
+	}
+	@media (max-width: $bp) {
+		left: $wrapperMarginHalf;
+	}
+	@media (max-width: $mobile) {
+		left: $wrapperMarginMobileHalf;
+	}
+}
+
+@mixin background($size: cover, $bgPosition: top left) {
+	background-position: $bgPosition;
+	background-repeat: no-repeat;
+	background-size: $size;
+}
+
+@mixin rounded($borderRadius: 15px) {
+	border-radius: $borderRadius;
+	overflow: hidden;
+}
+
+@mixin buttonHover($background: $highlight, $border: $background) {
+	&:hover {
+		background: $background;
+		border-color: $border;
+	}
+}
+
+@mixin centerWidth($width, $type: "full", $bp: 0) {
+	@media (min-width: $bp) {
+		margin-left: auto;
+		margin-right: auto;
+		@if $type == "full" {
+			width: $width;
+		}
+		@if $type == "max" {
+			max-width: $width;
+		}
+	}
+}
+
+@mixin clampNice($property, $max, $min: $max, $med: $max) {
+	@media (min-width: $tabletL) {
+		#{$property}: $max;
+	}
+	@media (max-width: $tablet) {
+		#{$property}: $med;
+	}
+	@media (max-width: $mobile) {
+		#{$property}: $min;
+	}
+	@supports (font-size: clamp(1px, 1vw, 1px)) {
+		#{$property}: clamp($min, $med, $max);
+	}
+}
+
+@mixin dark($background: transparent, $p: white, $h2: white, $h3: white) {
+	color: white;
+	background-color: $background;
+	@if $p != "white" {
+		p,
+		li {
+			color: $p;
+		}
+	}
+	@if $h2 != "white" {
+		h2 {
+			color: $h2;
+		}
+	}
+	@if $h3 != "white" {
+		h3 {
+			color: $h3;
+		}
+	}
+}
+
+@mixin displayToggle() {
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+
+@mixin fancyBullets($color: inherit) {
+	list-style: none;
+	li::before {
+		content: "\2022";
+		color: $color;
+		font-weight: bold;
+		display: inline-block;
+		width: 1em;
+		margin-left: -1em;
+	}
+}
+
+@mixin flexGap($gap: 40px, $cols: 2, $bp: $mobileL) {
+	@media (min-width: $bp) {
+		$colWidth: calc(100% / $cols);
+		$gapTotal: $gap * ($cols - 1);
+		gap: $gap;
+		> div {
+			width: calc($colWidth - ($gapTotal / $cols));
+		}
+	}
+}
+
+@mixin flexNice($bp: $mobileL, $gap: 40px, $justify: space-between, $valign: flex-start) {
+	// temporary fix
+	gap: $gap;
+	justify-content: $justify;
+	@media (min-width: $bp) {
+		&.max-2 {
+			$colWidth: calc(100% / 2);
+			$gapTotal: $gap;
+			> div {
+				width: calc($colWidth - ($gapTotal / 2));
+			}
+		}
+		&.max-3 {
+			$colWidth: calc(100% / 3);
+			$gapTotal: $gap * 2;
+			> div {
+				width: calc($colWidth - ($gapTotal / 3));
+			}
+		}
+		&.max-4 {
+			$colWidth: calc(100% / 4);
+			$gapTotal: $gap * 3;
+			> div {
+				width: calc($colWidth - ($gapTotal / 4));
+			}
+		}
+	}
+}
+
+@mixin font(
+	$desktopSize,
+	$desktopLineHeight,
+	$mobileSize: $desktopSize,
+	$mobileLineHeight: $desktopLineHeight,
+	$clampSize: false
+) {
+	$desktopSizePX: #{$desktopSize}px;
+	$mobileSizePX: #{$mobileSize}px;
+	$desktopSizeREM: #{calc($desktopSize/16)}rem;
+	$mobileSizeREM: #{calc($mobileSize/16)}rem;
+	font-size: $desktopSizePX;
+	//line-height: #{calc($desktopLineHeight/$desktopSize)}rem;
+	line-height: #{$desktopLineHeight}px;
+	@if $mobileSize {
+		@media (max-width: $mobileL) {
+			font-size: $mobileSizePX;
+			line-height: #{calc($mobileLineHeight/$mobileSize)}rem;
+			line-height: #{$mobileLineHeight}px;
+		}
+	}
+	@if $clampSize {
+		@supports (font-size: clamp(1px, 1vw, 1px)) {
+			font-size: clamp(#{$mobileSizeREM}, #{$clampSize}, #{$desktopSizeREM});
+		}
+	}
+}
+
+@mixin hoverAll {
+	@media (hover: hover) {
+		@content;
+	}
+}
+
+@mixin hoverDesktop {
+	@media (hover: hover) and (min-width: $desktop) {
+		@content;
+	}
+}
+
+@mixin icon($color, $src, $rotate: 0deg) {
+	transform: rotate($rotate);
+	background-color: $color;
+	mask-repeat: no-repeat;
+	mask-image: url("../images/" + $src);
+}
+
+@mixin locked() {
+	pointer-events: none;
+	user-select: none;
+}
+
+@mixin margin($desktop: 0, $mobile: $desktop) {
+	@media (min-width: $mobileL) {
+		margin: $desktop;
+	}
+	@media (max-width: $mobile) {
+		margin: $mobile;
+	}
+}
+
+@mixin minHeight($minContentHeight: $minContentHeight) {
+	min-height: $minContentHeight;
+}
+
+@mixin modal($width: 800px, $contentPadding: 50px, $closeSize: 45px, $closeMargin: 10px, $closeColor: white) {
+	@include transition(opacity);
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	margin: 0;
+	left: 0;
+	width: 100vw;
+	max-width:none;
+	height: 100dvh;
+	overflow-y: auto;
+	.modal-wrapper {
+		margin: 0 auto;
+		position: relative;
+		width: 100%;
+		max-width: calc(#{$width} + (#{$contentPadding} * 2));
+		min-width: 360px;
+		padding: $contentPadding;
+	}
+	.close {
+		position: absolute;
+		z-index: 999;
+		margin: $closeMargin;
+		top: -10px;
+		right: 0;
+		cursor: pointer;
+		width: $closeSize;
+		height: $closeSize;
+		//background: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="utf-8"%3F><svg fill="%23000000" width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title>ionicons-v5-m</title><path d="M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm75.31,260.69a16,16,0,1,1-22.62,22.62L256,278.63l-52.69,52.68a16,16,0,0,1-22.62-22.62L233.37,256l-52.68-52.69a16,16,0,0,1,22.62-22.62L256,233.37l52.69-52.68a16,16,0,0,1,22.62,22.62L278.63,256Z" fill="%23ffffff"/></svg>') no-repeat center center;
+		background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>')
+			no-repeat center center;
+		background-size: contain;
+	}
+	&.active {
+		z-index: 1;
+		opacity: 1;
+		pointer-events: auto;
+	}
+}
+
+@mixin pseudo(
+	$width: 25px,
+	$height: $width,
+	$backgroundImage: "",
+	$placementY: auto,
+	$placementX: auto,
+	$position: absolute
+) {
+	position: $position;
+	width: $width;
+	height: $height;
+	@if $backgroundImage {
+		background-image: url($backgroundImage);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
+	}
+	content: "";
+	@if $placementX == left {
+		left: 0;
+	}
+	@if $placementX == center {
+		left: calc(50% - (#{$width} / 2));
+	}
+	@if $placementX == right {
+		right: 0;
+	}
+	@if $placementY == top {
+		top: 0;
+	}
+	@if $placementY == center {
+		top: calc(50% - (#{$height} / 2));
+	}
+	@if $placementY == bottom {
+		bottom: 0;
+	}
+	@if $position == absolute {
+		display: block;
+	} @else {
+		display: inline-block;
+	}
+}
+
+@mixin reset {
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+}
+
+@mixin size($width: auto, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+@mixin slant($location, $angle1: 12%, $angle2: $angle1) {
+	$angle2a: calc(100% - $angle2);
+	@if $location == "right top" {
+		clip-path: polygon(0 0, 100% $angle1, 100% 100%, 0% 100%);
+	}
+	@if $location == "right both" {
+		clip-path: polygon(0 0, 100% $angle1, 100% $angle2a, 0% 100%);
+	}
+	@if $location == "right bottom" {
+		clip-path: polygon(0 0, 100% 0, 100% calc(100% - $angle1), 0% 100%);
+	}
+	@if $location == "left top" {
+		clip-path: polygon(0 $angle1, 100% 0, 100% 100%, 0% 100%);
+	}
+	@if $location == "left both" {
+		clip-path: polygon(0 $angle1, 100% 0, 100% 100%, 0 $angle2a);
+	}
+	@if $location == "left bottom" {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 $angle1);
+	}
+}
+
+@mixin social($iconPadding: 0 8px) {
+	display: flex;
+	align-items: center;
+	li {
+		padding: $iconPadding;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+}
+
+@mixin transition($property: all, $duration: 0.25s, $ease: ease, $delay: 0s) {
+	-webkit-transition: $property $duration $ease $delay;
+	-moz-transition: $property $duration $ease $delay;
+	transition: $property $duration $ease $delay;
+}
+
+@mixin threeCol($col1: calc(100% / 3), $col2: "", $col3: "", $width: $wrapperWidth) {
+	.col-1 {
+		width: calc(($col1 / strip-unit($width)) * 100%);
+	}
+	@if ($col2 != "") {
+		.col-2 {
+			width: calc(($col2 / strip-unit($width)) * 100%);
+		}
+	}
+	@if ($col3 != "") {
+		.col-3 {
+			width: calc(($col3 / strip-unit($width)) * 100%);
+		}
+	}
+}
+
+@mixin twoCol($col1: 50%, $col2: "", $width: $wrapperWidth, $bp: $mobileL) {
+	$col1: ($col1 / strip-unit($width)) * 100%;
+	justify-content: space-between;
+	width: #{$width}px;
+	@media (min-width: $bp) {
+		> div:first-child {
+			width: calc($col1);
+		}
+		@if ($col2 != "") {
+			> div:last-child {
+				width: calc(($col2 / strip-unit($width)) * 100%);
+			}
+		} @else {
+			> div:last-child {
+				width: calc(100% - #{$col1});
+			}
+		}
+	}
+}
+@mixin articleAside($col1: 50%, $col2: "", $width: $wrapperWidth, $bp: $mobileL) {
+	$article: ($col1 / strip-unit($width)) * 100%;
+	justify-content: space-between;
+	width: #{$width}px;
+	@media (min-width: $bp) {
+		article {
+			width: calc($article);
+		}
+		@if ($col2 != "") {
+			aside {
+				width: calc(($col2 / strip-unit($width)) * 100%);
+			}
+		} @else {
+			aside {
+				width: calc(100% - #{$article});
+			}
+		}
+	}
+}
+
+@mixin unflex() {
+	display: block;
+	> div,
+	> a {
+		display: block;
+		margin: 0;
+		width: 100% !important;
+	}
+}
+
+@mixin unlist() {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@mixin visibility($active: 1) {
+	@include transition(opacity);
+	@if $active > 0 {
+		opacity: 1;
+		pointer-events: auto;
+	} @else {
+		opacity: 0;
+		pointer-events: none;
+		&.active {
+			opacity: 1;
+			pointer-events: auto;
+		}
+	}
+}
+
+@mixin wrapperClone($display) {
+	@if $display == "desktop" {
+		@include centerWidth(calc(100% - $wrapperMargin));
+	}
+	@if $display == "mobile" {
+		@include centerWidth(calc(100% - $wrapperMarginMobile));
+	}
+}
+
+@mixin wrapperRemove(){
+	margin-left:calc($wrapperMarginMobileHalf * -1);
+	width:calc(100vw + $wrapperMarginMobile);
+}

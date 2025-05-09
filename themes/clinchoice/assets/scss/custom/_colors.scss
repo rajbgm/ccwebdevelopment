@@ -1,0 +1,215 @@
+.base,
+.blue,
+.orange,
+.purple,
+.teal {
+  @include dark;
+}
+
+.base,
+.base-hover{
+  background:$base !important;
+  li{
+    &::marker{
+      color:$teal;
+    }
+  }
+}
+.base-text,
+.base-text-hover:hover {
+  color: $base !important;
+}
+.base-arrow,
+.base-arrow-hover:hover {
+  path {
+    fill: $base !important;
+  }
+}
+
+
+.baselight,
+.baselight-hover{
+  background:$baselight !important;
+}
+.baselight,
+.baselight-hover:hover {
+  background: $baselight !important;
+}
+.baselight-text,
+.baselight-text-hover:hover {
+  color: $baselight !important;
+}
+
+
+.baselighter,
+.baselighter-hover:hover {
+  background: $baselighter !important;
+}
+.baselighter-text,
+.baselighter-text-hover:hover {
+  color: $baselighter !important;
+}
+.baselighter-arrow,
+.baselighter-arrow-hover:hover {
+  path {
+    fill: $baselighter !important;
+  }
+}
+
+
+.blue,
+.blue-hover:hover {
+  background: $blue !important;
+}
+.blue-text,
+.blue-text-hover:hover {
+  color: $blue !important;
+}
+.blue-arrow,
+.blue-arrow-hover:hover {
+  path {
+    fill: $blue !important;
+  }
+}
+
+.bluegreen,
+.bluegreen-hover:hover {
+  background: $bluegreen !important;
+}
+.bluegreen-text,
+.bluegreen-text.clear,
+.bluegreen-text-hover:hover {
+  color: $bluegreen !important;
+}
+.bluegreen-arrow,
+.bluegreen-arrow-hover:hover {
+  path {
+    fill: $bluegreen !important;
+  }
+}
+.bluegreen-headlines{
+  h2,h3{
+    color:$bluegreen !important;
+  }
+}
+
+.orange,
+.orange-hover:hover {
+  background: $orange !important;
+}
+.orange-text,
+.orange-text-hover:hover {
+  color: $orange !important;
+}
+.orange-arrow,
+.orange-arrow-hover:hover {
+  path {
+    fill: $orange !important;
+  }
+}
+
+.purple,
+.purple-hover:hover {
+  background: $purple !important;
+}
+.purple-text,
+.purple-text-hover:hover {
+  color: $purple !important;
+}
+.purple-arrow,
+.purple-arrow-hover:hover {
+  path {
+    fill: $purple !important;
+  }
+}
+
+.teal,
+.teal-hover:hover {
+  background: $teal !important;
+  li{
+    &::marker{
+      color:white;
+    }
+  }
+}
+.teal-text,
+.teal-text-hover:hover {
+  color: $teal !important;
+}
+.teal-arrow,
+.teal-arrow-hover:hover {
+  path {
+    fill: $teal !important;
+  }
+}
+
+.white-text,
+.white-text-hover:hover {
+  color: white !important;
+}
+.white-arrow,
+.white-arrow-hover:hover {
+  path {
+    fill: white !important;
+  }
+}
+
+
+// teal -> orange
+.button-3 {
+  background:$teal;
+  path{
+    fill:$base;
+  }
+  &:hover{
+    background:$orange;
+  }
+}
+
+// orange -> teal
+.button-5 {
+  background:$orange;
+  color:$base;
+  path{
+    fill:white;
+  }
+  &:hover{
+    background:$teal;
+    color:white;
+    path{
+      fill:$base;
+    }
+  }
+}
+
+// orange -> blue
+.button-6 {
+  background:$orange;
+  color:$blue;
+  path{
+    fill:white;
+  }
+  &:hover{
+    background:$blue;
+    color:white;
+    path{
+      fill:$orange;
+    }
+  }
+}
+
+// orange -> teal (alt)
+.button-7 {
+  background:$orange;
+  color:$blue;
+  path{
+    fill:white;
+  }
+  &:hover{
+    background:$teal;
+    color:white;
+    path{
+      fill:$base;
+    }
+  }
+}

@@ -1,0 +1,1062 @@
+.callout {
+  @include dark($blue);
+  text-align: center;
+  h2 {
+    margin: 0 auto;
+    max-width: 810px;
+  }
+  @media (min-width: $mobileL) {
+    padding: 100px 0 !important;
+  }
+}
+
+.contact-disclaimer {
+  background: $blue;
+  p {
+    @include font(12, 14);
+    @include centerWidth(720px, "max");
+    margin-top: -82px;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+  }
+}
+
+#cta {
+  @include dark;
+  background-image: url(/wp-content/uploads/bkg1@2x-scaled.jpg);
+  text-align: center;
+  h2 {
+    br {
+      display: block !important;
+    }
+  }
+  p {
+    @extend .p1a;
+  }
+  .headline {
+    margin-bottom: 20px;
+  }
+  .text {
+    @include centerWidth(725px);
+    margin-bottom: 17px;
+  }
+  .button {
+    @extend .button-3;
+  }
+  @media (min-width: $mobileL) {
+    padding: 100px 0;
+    .is-layout-flex {
+      gap: 75px;
+      justify-content: center;
+    }
+    .has-2 {
+      @include centerWidth(700px, max);
+      justify-content: space-between;
+    }
+  }
+  @media (max-width: $mobile) {
+    h2 {
+      @include font(23, 27);
+      margin-top: -5px;
+    }
+    p {
+      color: $greylight;
+    }
+    .button {
+      font-size: 17.5px;
+    }
+    .wp-block-column {
+      &:not(:first-child) {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+.cta-alt {
+  text-align: center;
+  h2 {
+    color: $blue !important;
+  }
+  @media (min-width: $mobileL) {
+    padding: 100px 0 !important;
+    background-image: url("../images/backgrounds/cta_alt.jpg");
+  }
+  @media (max-width: $mobile) {
+    background-image: url("../images/backgrounds/cta_alt_m.jpg");
+  }
+}
+
+#featured {
+  text-align: center;
+  background: url("/wp-content/uploads/bkg1@2x-1-scaled.jpg") no-repeat center 450px;
+  background-size: cover;
+  > .text {
+    @include centerWidth(760px);
+    margin-bottom: 40px;
+  }
+  .block-links {
+    @extend .clear-buttons;
+    text-align: left;
+    p {
+      @extend .p2b;
+    }
+    .wp-block-column {
+      box-shadow: 3px 4px 7px 0px rgba(black, 0.15);
+    }
+    &.color-blocks {
+      h3 {
+        margin-bottom: 12px;
+      }
+      .wp-block-column {
+        @include dark;
+        padding: 50px 62px;
+        border-radius: 50px 0 0 0;
+        &:nth-child(1) {
+          background: $purple;
+          .button {
+            @extend .orange-text;
+          }
+        }
+        &:nth-child(2) {
+          background: $blue;
+          .button {
+            @extend .orange-text;
+          }
+        }
+        &:nth-child(3) {
+          background: $teal;
+          .button {
+            @extend .base-text;
+            @extend .base-arrow;
+          }
+        }
+        &:nth-child(4) {
+          background: $orange;
+          .button {
+            @extend .base-text;
+            @extend .base-arrow;
+          }
+        }
+      }
+      .headline {
+        margin-bottom: 5px;
+      }
+      .image {
+        @include size(52px);
+        margin-bottom: 15px;
+      }
+      .button {
+        &:hover {
+          @extend .white-text;
+          @extend .white-arrow;
+        }
+      }
+      @media (min-width: $mobileL) {
+        display: grid;
+        grid: repeat(2, 1fr) / repeat(2, 1fr);
+        gap: 15px;
+      }
+    }
+    &.white-blocks {
+      h3 {
+        @extend .h3a;
+        margin: -7px 0 0 0;
+        color: $blue;
+      }
+      .headline {
+        display: inline-flex;
+        align-items: center;
+        vertical-align: top;
+        margin-left: 8px;
+        max-width: calc(100% - 75px);
+        min-height: 60px;
+      }
+      .image {
+        display: inline-block;
+        height: 60px;
+      }
+      .button {
+        @extend .bluegreen-text;
+        @extend .teal-arrow;
+        @extend .teal-text-hover;
+      }
+      .text {
+        margin-top: 8px;
+      }
+      .wp-block-column {
+        @extend .gradient-bg;
+        border-radius: 16px;
+        padding: 40px;
+      }
+      @media (min-width: $mobileL) {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        .wp-block-column {
+          width: 360px;
+        }
+      }
+    }
+    &.has-4 {
+      @include centerWidth(770px);
+    }
+    @media (max-width: $mobile) {
+      gap: 20px;
+      &.color-blocks {
+        .wp-block-column {
+          padding: 37px 40px;
+        }
+      }
+    }
+  }
+  &:not(.v2) {
+    @media (min-width: $mobileL) {
+      padding-top: 130px;
+    }
+  }
+  &.v2 {
+    background: url("../images/backgrounds/bg-blue.png") no-repeat center 380px;
+  }
+  @media (max-width: $mobile) {
+    // padding: 4px 0 40px 0;
+    background: url("../images/backgrounds/bkg1@2x.jpg") no-repeat center 300px;
+    h3 {
+      letter-spacing: -0.02em;
+    }
+    > .text {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+#featured-events {
+  background: linear-gradient(180deg, white 0%, #beccd5 100%);
+  text-align: center;
+  h2 {
+    color: $blue !important;
+  }
+  .is-layout-flex {
+    @include rounded(16px);
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+  }
+  @media (min-width: $mobileL) {
+    h2 {
+      margin-bottom: 40px;
+    }
+    .is-layout-flex {
+      > div {
+        position: relative;
+        width: 50%;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    padding-top: 0;
+    h2 {
+      margin-bottom: 34px;
+    }
+  }
+  &.mobile {
+    h3 {
+      padding-right: 50px;
+      margin: 25px 0 35px 0;
+      text-align: left;
+      &:after {
+        @include pseudo(13px, 11px, "../images/arrows/down-purple.svg", "", "", relative);
+        transform: rotate(-90deg);
+        margin: 0 0 1px 2px;
+      }
+    }
+    .post {
+      @include centerWidth(330px);
+    }
+    .image {
+      overflow: hidden;
+      border-radius: 16px;
+    }
+  }
+}
+
+.floating {
+  position: absolute;
+  z-index: 1;
+  padding: 0 !important;
+  width: 100%;
+  h2 {
+    color: $blue;
+  }
+  p {
+    margin-bottom: 0 !important;
+    letter-spacing: -0.01em;
+  }
+  .is-layout-flex {
+    @include absoluteWrapper(793px, 863px);
+    @include twoCol(175, 580, 793);
+    align-items: center;
+    padding: 40px 35px;
+    margin-top: -111px;
+    min-height: 222px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+    @media (max-width: $mobile) {
+      h2 {
+        margin-top: 30px;
+      }
+      .wp-block-column {
+        @include centerWidth(300px, max);
+        text-align: center;
+      }
+    }
+  }
+  .image {
+    @include centerWidth(130px);
+    margin-top: -16px;
+  }
+  .buttons {
+    margin-top: -32px;
+    .button {
+      font-size: 18px;
+    }
+  }
+}
+
+#gated {
+  @include modal(760px, 100px, 40px, 30px 20px);
+  background: rgba(white, 0.95);
+  text-align: center;
+  h2 {
+    color: $blue;
+    text-align: center;
+  }
+  .gfield--width-half {
+    label {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  .modal-wrapper {
+    border-radius: 8px;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+    background: $baselighter;
+    .close {
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="%23415364" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>');
+    }
+  }
+  form {
+    .gfield--type-consent {
+      text-align: center;
+    }
+    .gform_footer {
+      margin-top: 37px;
+      &:after {
+        left: calc(50% + 52px / 2);
+      }
+    }
+  }
+  @media (min-width: $mobileL) {
+    @media (max-height: 880px) {
+      align-items: flex-start;
+      .modal-wrapper {
+        margin-top: 160px;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    background: #d6e0e8;
+    .modal-wrapper {
+      margin-top: $headerHeightMobile;
+      padding: 80px 35px;
+      border-radius: 0;
+      box-shadow: none;
+      height: calc(100vh - $headerHeightMobile);
+      .content {
+        @include centerWidth(400px, max);
+      }
+      .close {
+        top: 10px;
+      }
+    }
+    form {
+      padding-bottom:100px;
+      .gform_footer {
+        &:after {
+          margin-left: 25px;
+          width: 12px;
+          height: 11px;
+        }
+      }
+    }
+    // @media (max-height:770px){
+    //   .modal-wrapper{
+    //     position:fixed;
+    //     overflow-y:scroll;
+    //   }
+    // }
+  }
+}
+
+.hq {
+  h3 {
+    margin-top: 0 !important;
+    &.h3a {
+      margin-bottom: 15px;
+    }
+  }
+  p {
+    @include font(20, 30, 15, 21);
+    br {
+      display: block;
+    }
+  }
+  .address {
+    margin-bottom: 1em;
+  }
+  .flex {
+    align-items: flex-start;
+    justify-content: space-between;
+    > div {
+      &:first-child {
+        p {
+          margin-top: -3px;
+        }
+      }
+    }
+  }
+}
+
+#intro {
+  background: url(/wp-content/uploads/bkg1@2x-2-scaled.jpg) no-repeat center center;
+  background-size: cover;
+  p {
+    @extend .v1;
+  }
+  ul {
+    text-align: left;
+  }
+  > .text {
+    width: 760px;
+  }
+  @media (min-width: $mobileL) {
+    padding: 93px 0 100px 0;
+    text-align: center;
+  }
+  @media (max-width: $mobile) {
+    h2 {
+      margin-top: -5px;
+      text-align: center;
+    }
+  }
+}
+
+#leadership-team {
+  .wrapper {
+    width: 1160px;
+  }
+  .item {
+    @include dark($base);
+    position: relative;
+    border-radius: 50px 0 0 0;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+    p {
+      &.name {
+        @include font(22, 29, 21, 25);
+        font-family: $headline;
+        margin-bottom: 5px;
+      }
+      &.role {
+        @include font(20, 26, 15, 21);
+      }
+    }
+    .image {
+      @include size(184px);
+      position: absolute;
+      margin: -23px 0 0 35px;
+    }
+    &:after {
+      @include pseudo(
+        27px,
+        27px,
+        'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="29.496" height="29.496"><defs><clipPath id="a618a"><path fill="%23ffffff" d="M0 0h23.287v18.427H0z" data-name="Rectangle 61"/></clipPath></defs><g data-name="Group 180"><g clip-path="url(%23a618a)" data-name="Group 54" transform="rotate(-45 19.876 8.233)"><path fill="%23ffffff" d="M22.822 8.084 15.273.534a1.603 1.603 0 0 0-2.411 2.112 1.62 1.62 0 0 0 .145.148l4.814 4.82H1.6a1.603 1.603 0 1 0 0 3.205h16.22l-4.81 4.81a1.6 1.6 0 0 0 .943 2.792c.042 0 .084.005.127.005a1.6 1.6 0 0 0 1.189-.53l7.554-7.554a1.606 1.606 0 0 0 0-2.26" data-name="Path 133"/></g></g></svg>',
+        top,
+        right
+      );
+      margin: 8px;
+    }
+    &:hover:after {
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="29.496" height="29.496"><defs><clipPath id="a618a"><path fill="%23ff9e18" d="M0 0h23.287v18.427H0z" data-name="Rectangle 61"/></clipPath></defs><g data-name="Group 180"><g clip-path="url(%23a618a)" data-name="Group 54" transform="rotate(-45 19.876 8.233)"><path fill="%23ff9e18" d="M22.822 8.084 15.273.534a1.603 1.603 0 0 0-2.411 2.112 1.62 1.62 0 0 0 .145.148l4.814 4.82H1.6a1.603 1.603 0 1 0 0 3.205h16.22l-4.81 4.81a1.6 1.6 0 0 0 .943 2.792c.042 0 .084.005.127.005a1.6 1.6 0 0 0 1.189-.53l7.554-7.554a1.606 1.606 0 0 0 0-2.26" data-name="Path 133"/></g></g></svg>');
+    }
+  }
+  .bio {
+    display: none;
+  }
+  .image {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+  }
+  @media (min-width: $mobileL) {
+    .flex {
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .item {
+      width: calc(50% - 20px);
+      .text {
+        padding: 43px 35px 54px 245px;
+      }
+    }
+    .block-link {
+      &:first-child {
+        margin: 0 calc(50% - 280px);
+        width: 560px;
+      }
+    }
+  }
+  @media (max-width: $desktop) {
+    .item {
+      .image {
+        @include size(150px);
+        left: calc(50% - 75px);
+        margin-left: 0;
+      }
+      .text {
+        padding: 150px 30px 30px 30px;
+        text-align: center;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    .wrapper {
+      margin-top: 23px;
+    }
+    .item {
+      @include centerWidth(calc(100vw - 140px));
+      position: relative;
+      p {
+        &.name {
+          margin-bottom: 8px;
+        }
+      }
+      &:after {
+        @include size(19px);
+      }
+      &:not(:first-child) {
+        margin-top: 20px;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    .item {
+      width: 250px;
+    }
+  }
+}
+
+#legal {
+  padding: 15px 30px;
+  background: $blue;
+  color: white;
+  p {
+    @include centerWidth(710px, max);
+    @include font(12, 14);
+  }
+  a {
+    color: inherit;
+    &:hover {
+      color: $greylight;
+    }
+  }
+  @media (max-width: $mobile) {
+    margin-top: 60px;
+    padding: 15px 0;
+    p {
+      text-align: left !important;
+    }
+  }
+}
+
+#list {
+  @extend .two-col;
+  @extend .v1;
+  h2 {
+    margin-bottom: calc(30px - 15px);
+  }
+  li {
+    &::marker {
+      color: $purple;
+    }
+  }
+  img {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 5px 10px 0px rgba(black, 0.15);
+  }
+  @media (min-width: $mobileL) {
+    padding-bottom: 130px;
+    .wp-block-group {
+      width: 1000px;
+      padding-bottom: 100px;
+      &:nth-child(even) {
+        .is-layout-flex {
+          flex-direction: row-reverse;
+        }
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
+      .is-layout-flex {
+        width: auto;
+      }
+    }
+    &.flip {
+      .wp-block-group {
+        &:nth-child(even) {
+          .is-layout-flex {
+            flex-direction: row;
+          }
+        }
+        &:nth-child(odd) {
+          .is-layout-flex {
+            flex-direction: row-reverse;
+          }
+        }
+      }
+    }
+  }
+}
+
+.plain-text {
+  &.v1 {
+    p,
+    li {
+      @extend .p1a;
+    }
+    li {
+      margin-top: 8px;
+    }
+  }
+  &.ul-2 {
+    .is-layout-flex {
+      @include flexGap(20px);
+      li {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .wp-block-column {
+    @include centerWidth(1000px, max, $mobileL);
+    margin-top: 27px;
+  }
+}
+
+.post-slider {
+  background: $blue;
+  text-align: center;
+  .text {
+    margin-bottom: 46px;
+    p {
+      @include centerWidth(765px, max);
+      @extend .p1b;
+      color: white;
+    }
+  }
+  #resources-swiper {
+    margin-bottom: 42px;
+    text-align: left;
+  }
+}
+
+#testimonials {
+  .content {
+    @include centerWidth(735px, max);
+  }
+  p {
+    color: white;
+    &.quote {
+      @include font(23, 37, 18, 26);
+      font-weight: 500;
+    }
+  }
+  .swiper-pagination {
+    position: relative;
+    margin-top: 40px;
+    .swiper-pagination-bullet {
+      @include size(13px);
+      opacity: 1;
+      background: transparent;
+      border: 2px solid white;
+      &.swiper-pagination-bullet-active {
+        background: white;
+      }
+    }
+  }
+  @media (min-width: $mobileL) {
+    background-image: url("../images/backgrounds/quote_bkg.jpg");
+    padding: 100px 0;
+    text-align: center;
+    .swiper {
+      &:before {
+        @include pseudo(67px, 67px, "../images/quote_left.svg", center, left);
+        margin-left: 100px;
+      }
+      &:after {
+        @include pseudo(67px, 67px, "../images/quote_right.svg", center, right);
+        margin-right: 100px;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    background-image: url("../images/backgrounds/quote_bkg_m.jpg") !important;
+    .swiper {
+      &:before {
+        @include pseudo(50px, 50px, "../images/quote_left.svg", top, left);
+      }
+      &:after {
+        @include pseudo(50px, 50px, "../images/quote_right.svg", bottom, right);
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+.two-col {
+  li {
+    margin-bottom: 10px;
+    a {
+      color: inherit;
+      &:hover {
+        color: $purple;
+      }
+    }
+  }
+  img {
+    margin-bottom: -2px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 3px 5px 10px 0px rgba(black, 0.15);
+  }
+  &.v2 {
+    ul {
+      margin-bottom: -1em;
+      li {
+        &::marker {
+          color: $blue;
+        }
+      }
+    }
+  }
+  &.v3 {
+    h2 {
+      text-align: center;
+    }
+    img {
+      border-radius: 20px;
+    }
+    &.dark {
+      @include dark($base);
+    }
+  }
+  &.v4 {
+    img {
+      position: absolute;
+      border-radius: 16px;
+    }
+  }
+  &.v5 {
+    text-align: center;
+    .is-layout-flex {
+      justify-content: center;
+    }
+    h2,
+    h3 {
+      color: $blue;
+    }
+    p {
+      @extend .p2b;
+    }
+    img {
+      margin-bottom: 48px;
+      width: 297px;
+    }
+    .button {
+      box-shadow: 3px 4px 7px rgba($base, 0.15);
+    }
+  }
+  @media (min-width: $mobileL) {
+    .is-layout-flex {
+      align-items: center;
+      gap: 108px;
+      justify-content: space-between;
+      .image {
+        width: 100%;
+      }
+    }
+    &.icon-list {
+      padding: 100px 0;
+      .wp-block-group {
+        .is-layout-flex {
+          align-items: start;
+          gap: clamp(2.5rem, 0.1797rem + 4.8403vw, 5.625rem);
+          justify-content: center;
+          > div:first-child {
+            max-width: 200px;
+          }
+          .image {
+            width: 200px;
+          }
+        }
+        &:nth-child(even) {
+          .is-layout-flex {
+            flex-direction: row;
+          }
+        }
+      }
+    }
+    &.v1 {
+      &:not(.icon-list) {
+        .is-layout-flex {
+          justify-content: space-between;
+          max-width: 1000px;
+          &:not(:has(.image-col)) {
+            @include twoCol(400, 520, 1000);
+            width: auto !important;
+          }
+          .image-col {
+            width: 40%;
+          }
+          .text-col {
+            width: 52%;
+          }
+        }
+      }
+    }
+    &.v2 {
+      padding: 135px 0 120px 0;
+      ul {
+        column-count: 2;
+      }
+      .is-layout-flex {
+        @include twoCol(520, 396, 1000);
+      }
+      &.dark {
+        background-image: url("../images/car_bkg1@2x.jpg");
+      }
+    }
+    &.v3 {
+      h2 {
+        margin-bottom: 37px;
+      }
+      img {
+        margin-top: 5px;
+      }
+      .is-layout-flex {
+        @include twoCol(487, 545, 1084);
+        align-items: flex-start;
+      }
+    }
+    &.v4 {
+      img {
+        margin-top: -553px;
+      }
+      .is-layout-flex {
+        @include twoCol(460, 460, 970);
+        align-items: flex-start;
+      }
+      .wp-block-column {
+        &:first-child {
+          p {
+            &:last-child {
+              margin-bottom: -10px !important;
+            }
+          }
+        }
+      }
+      .headline {
+        width: 980px;
+      }
+      .image {
+        @include centerWidth(760px);
+      }
+    }
+    &.v5 {
+      .button {
+        @include font(18, 23);
+        margin-top: 8px;
+        padding: 8px 42px 7px 23px;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    padding-bottom: 10px;
+    .wp-block-group {
+      padding-bottom: 50px;
+    }
+    .wp-block-column {
+      &:first-child {
+        .image {
+          margin-bottom: 30px;
+        }
+      }
+      &:last-child {
+        .image {
+          margin-top: 30px;
+        }
+      }
+    }
+    .image {
+      @include centerWidth(200px, max);
+      margin-bottom: 30px;
+      img {
+        margin-bottom: 0;
+      }
+    }
+    &.icon-list {
+      .image {
+        @include centerWidth(100px, max);
+      }
+    }
+    &.v1 {
+      .headline {
+        text-align: center;
+      }
+    }
+    &.v2 {
+      background-image: url("../images/car_bkg1_m@3x.jpg");
+      h2,
+      p,
+      li,
+      li::marker {
+        color: white !important;
+      }
+      .is-layout-flex {
+        flex-direction: column-reverse;
+      }
+      .image {
+        margin: 0 auto 30px auto !important;
+      }
+    }
+    &.v3 {
+      .image {
+        margin-top: 10px;
+        max-width: 100%;
+      }
+    }
+    &.v4 {
+      img {
+        margin-top: -244px;
+      }
+      .image {
+        @include centerWidth(330px, max);
+      }
+    }
+    &.v5 {
+      .is-layout-flex {
+        gap: 20px;
+      }
+    }
+  }
+}
+
+#value {
+  @extend .gradient-bg;
+  padding-bottom: 0;
+  text-align: center;
+  > .text {
+    @include centerWidth(760px);
+  }
+  .icon-circles {
+    justify-content: space-between;
+    margin-top: calc(50px - 10px);
+    width: 1020px;
+    p {
+      @extend .p2b;
+    }
+    .image {
+      @include size(136px);
+      margin: 0 auto 25px auto;
+      border-radius: 50%;
+      box-shadow: 3px 5px 10px 0px rgba(black, 0.1);
+    }
+    .text,
+    .rich_text {
+      @include centerWidth(200px);
+    }
+    @media (max-width: $mobile) {
+      .image {
+        @include size(100px);
+      }
+      .text,
+      .rich_text {
+        margin-bottom: 45px;
+        width: 260px;
+      }
+    }
+  }
+  @media (max-width: $mobileL) {
+    p {
+      line-height: 23px;
+    }
+  }
+}
+
+#regulatory-intelligence {
+  table {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 5px 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-spacing: 0;
+    a {
+      color: $teal;
+    }
+  }
+  th {
+    padding: 5px 10px;
+    background: $blue;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+  }
+  .sort_dropdown {
+    display: flex;
+    gap: 15px;
+    select {
+      padding: 0 15px;
+      color: $teal;
+      option {
+        color: $base;
+      }
+    }
+  }
+  .blocked {
+    display: none !important;
+  }
+  @media (max-width: 850px) {
+    .content {
+      width: 100%;
+      overflow-x: scroll;
+    }
+  }
+  @media (min-width: $mobileL) {
+    .sort_dropdown {
+      > div {
+        width: 20%;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    .sort_dropdown {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+// colors
+$base: #415364;
+$baselight: #7A97AB;
+$baselighter: #D6E0E8;
+$baselighterAlt: #D5E1E8;
+$blue: #014A98;
+$bluegreen: #0083AD;
+$bluelight: #63CFE3;
+$bluelighter: #C2E0F3;
+$greylight: #BECCD5;
+$offwhite: #F5F5F5;
+$orange:#FF9E17;
+$purple: #773DBD;
+$teal: #02BBB4;
+
+$highlight: $purple;
+$navColor: $base;
+$navBackgroundDesktop: transparent;
+$navBackgroundMobile: $navBackgroundDesktop;
+
+// breakpoints
+$wrapperWidth: 1200px;
+$wrapperWidthL: 1530px;
+$wrapperWidthM: 930px;
+$wrapperWidthS: 890px;
+$wrapperMargin: 100px;
+$wrapperMarginHalf: calc($wrapperMargin / 2);
+$wrapperMarginMobile: 60px;
+$wrapperMarginMobileHalf: calc($wrapperMarginMobile / 2);
+$wrapperFullMobile: calc($wrapperMarginMobile * -1);
+$breakpoint: $wrapperWidth + $wrapperMargin;
+$tablet: 768px;
+$mobile: 640px;
+$mobileNav: 1024px;
+$desktopNav: $mobileNav + 1;
+$desktopL: 1025px;
+$desktop: 1024px;
+$breakpointAdmin: $breakpoint + 280;
+$hero: 800px;
+$heroL: $hero + 1;
+
+$breakpointL: $breakpoint + 1;
+$desktopL: 1024px + 1;
+$mobileL: $mobile + 1;
+$tabletL: $tablet + 1;
+
+// layout
+$sectionPadding: 130px 0;
+$sectionPaddingMobile: 60px 0;
+$footerPadding: 50px 0;
+
+// typography
+$paragraph: "alwyn-new-web", sans-serif;
+$paragraphAlt: $paragraph;
+$headline: "alwyn-new-rounded-web", sans-serif;
+$headlineAlt: $headline;
+$navFont: $headline;
+$buttonFont: $headline;
+$headlineWeight: 600;
+$headlineSpacing: -0.01em;
+$paragraphWeight: 400;
+
+
+// navigation
+$headerHeight: 134px;
+$headerHeightScrolled: 100px;
+$mainTop: 0;
+$headerHeightMobile: 70px;
+$mainTopMobile: 90px;
+$headerAlign: center;
+$headerBackground:transparent;
+$headerScrolledBackground: white;
+$logoWidthDesktop: 260px;
+$logoWidthScrolled: 200px;
+$logoWidthMobile: 162px;
+$navHeight: 150px;
+$navHeightMobile: 76px;
+$navPadding: 10px 0;
+$navLinkPadding:13px;
+$footerHeight:400px;
+$minContentHeight:calc(100vh - $footerHeight);
+
+$p: 'p,main li';
+$input: 'input[type="text"],input[type="email"],input[type="tel"],textarea,select,legend';
+$primaryLink: '> li:not(.has-buttons)';
+$buttons: 'button, .button, input[type="submit"], .has-buttons a, .has-buttons span';

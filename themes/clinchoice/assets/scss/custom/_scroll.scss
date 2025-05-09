@@ -1,0 +1,75 @@
+.scroll-in,
+.icon-captions,
+#siblings,
+.products-1 #features,
+#values,
+#facts,
+#offerings,
+#industries-home,
+#social-responsibility,
+#support #features {
+  .item {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+
+    &.in-view {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+
+    &.in-view:nth-child(2) {
+      -webkit-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+    }
+
+    &.in-view:nth-child(3) {
+      -webkit-transition-delay: 0.6s;
+      transition-delay: 0.6s;
+    }
+
+    &.in-view:nth-child(4) {
+      -webkit-transition-delay: 0.8s;
+      transition-delay: 0.9s;
+    }
+
+    &.in-view:nth-child(5) {
+      -webkit-transition-delay: 1s;
+      transition-delay: 1.2s;
+    }
+
+    &.in-view:nth-child(6) {
+      -webkit-transition-delay: 1.2s;
+      transition-delay: 1.5s;
+    }
+  }
+}
+
+.two-col-alt {
+  .item {
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+
+    &.in-view {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+
+    &.in-view:nth-child(1) {
+      -webkit-transition-delay: 0.3s;
+      transition-delay: 0.3s;
+    }
+
+    &.in-view:nth-child(2) {
+      -webkit-transition-delay: 0.1s;
+      transition-delay: 0.1s;
+    }
+  }
+}

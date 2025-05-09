@@ -1,0 +1,144 @@
+.expertise-home {
+  width: 1160px !important;
+  br {
+    display: block !important;
+  }
+  a {
+    text-decoration: none;
+    p {
+      font-size: 22px;
+      line-height: 1.1em;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+  }
+  h2 {
+    font-size: 45px !important;
+    line-height: 1.1em !important;
+  }
+  > div {
+    display: flex;
+    align-items: center;
+    .overview {
+      //width:43.2%;
+      width: 340px;
+      display: flex;
+    }
+    .icon-list {
+      position: relative;
+      width: calc(100% - 340px);
+      max-width: 680px;
+    }
+  }
+  .swiper-wrapper {
+    max-width: 680px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 50%;
+      //box-shadow: 3px 3px 10px rgba(black, 0.15);
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+  }
+  .swiper-controls {
+    $width: 180px;
+    position: absolute;
+    z-index: 99999;
+    margin-top: -80px;
+    width: calc(100% + $width);
+    margin: -158px 0 0 calc($width * -0.5);
+    > div {
+      @include size(65px);
+      background: url("../images/arrows/arrow-orange-next.svg") no-repeat center center;
+      background-size: contain;
+      &:after {
+        content: "";
+      }
+    }
+    .swiper-button-next {
+    }
+    .swiper-button-prev {
+      background-image: url("../images/arrows/arrow-orange-prev.svg");
+    }
+  }
+  .therapeutic-areas {
+    padding-right: 70px;
+    margin-bottom: 130px;
+    .overview {
+      margin-right: 7%;
+    }
+  }
+  .specialties {
+    padding-left: 70px;
+    h2,
+    .icon-list a {
+      color: $bluegreen !important;
+    }
+    .overview {
+      justify-content: flex-end;
+      margin-left: 7%;
+    }
+  }
+  @media (max-width: $breakpoint) {
+    a {
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  @media (max-width: 980px) {
+    > div {
+      padding: 0 !important;
+      flex-direction: column;
+      gap: 40px;
+      text-align: center;
+      .overview,
+      .icon-list {
+        margin: 0 !important;
+        padding: 0;
+        justify-content: center !important;
+      }
+      .icon-list {
+        width: calc(100% - 150px);
+      }
+    }
+    .specialties {
+      flex-direction: column-reverse;
+    }
+  }
+  @media (max-width: $mobile) {
+    padding-bottom:60px;
+    a {
+      p {
+        font-size: 14px !important;
+      }
+    }
+    h2 {
+      font-size: 35px !important;
+    }
+    .icon-list{
+      width:100% !important;
+      max-width:400px !important;
+      img{
+        @include size(100px);
+        margin:0 auto;
+      }
+    }
+    .swiper-controls{
+      bottom:-30px;
+      left:calc(50% + 14px);
+      width:150px; 
+    }
+  }
+}

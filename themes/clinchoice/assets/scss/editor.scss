@@ -1,0 +1,109 @@
+// @import "variables";
+// @import "global/mixins";
+// @import "global/editor";
+
+// .is-root-container {
+//   @import "global/base";
+//   @import "global/blocks";
+//   @import "global/flex";
+//   @import "global/navigation";
+//   @import "global/buttons";
+//   @import "global/wp";
+
+//   @import "custom/typography";
+//   @import "custom/navigation";
+//   @import "custom/scroll";
+//   @import "custom/buttons";
+//   @import "custom/forms";
+//   @import "custom/resources";
+//   @import "custom/footer";
+//   @import "custom/dev";
+
+//   .hero {
+//     .wp-block-cover {
+//       &:before {
+//         left: 18%;
+//       }
+//     }
+//   }
+// }
+
+// .edit-post-visual-editor__post-title-wrapper{
+//   display:none;
+// }
+
+// @import "pages";
+
+.acf-block-body .acf-block-fields {
+  border: 0 !important;
+}
+
+.color-blocks {
+  flex-wrap: wrap !important;
+  > div {
+    flex-basis: 50% !important;
+  }
+}
+
+.edit-post-layout__metaboxes {
+  display: none;
+}
+
+// body {
+//   &.maint {
+//     &:before {
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       position: absolute;
+//       z-index: 9999;
+//       height: 100vh;
+//       width: 100%;
+//       background: #62af31;
+//       color: white;
+//       text-align: center;
+//       content: "Maintenance Mode";
+//     }
+//   }
+// }
+
+.wp-block-video {
+  display: none;
+}
+
+.wp-block[data-title="Image"] {
+  .acf-field[data-name="features"] {
+    .acf-label {
+      display: none;
+    }
+  }
+}
+
+#wpseo_meta {
+  display: none !important;
+}
+
+#sf-label {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  background: #007cba;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+body,
+h1,
+#sf-label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+body.login div#login h1 a {
+  background-image: url('/logo.svg');
+}

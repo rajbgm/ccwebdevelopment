@@ -1,0 +1,6 @@
+[21-Apr-2025 11:22:35 UTC]
+Error: Unknown column 'created_on' in 'order clause' Line: 1351 File: C:\xampp\htdocs\clinchoice2\wp-content\plugins\wp-security-audit-log-premiumold\classes\Entities\class-abstract-entity.php SQL data: query - SELECT wp_wsal_occurrences.* FROM wp_wsal_occurrences   WHERE 1   ORDER BY created_on ASC  LIMIT 0, 10 Values: Array
+(
+)
+
+Current memory usage: 134217728

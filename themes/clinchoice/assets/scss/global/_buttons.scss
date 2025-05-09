@@ -1,0 +1,86 @@
+$buttonHighlight: $purple;
+$buttonWidth: auto;
+$buttonPadding: 10px 42px 9px 23px;
+$buttonBorderRadius: 25px;
+$buttonBorderWidth: 0px;
+$buttonBorderColor: transparent;
+$buttonBorderColorHover: transparent;
+$buttonBackground: $purple;
+$buttonBackgroundHover: $teal;
+$buttonColor: white;
+$buttonFontSize: 21px;
+$buttonFontSizeMobile: 16px;
+$buttonFontWeight: 700;
+$buttonLetterSpacing: 0;
+$buttonTextTransform: none;
+
+// button hover
+$buttonTextColorHover: white;
+
+#{$buttons} {
+  //@include transition(all, 0.25s);
+  display: inline-block;
+  position: relative;
+  padding: $buttonPadding;
+  background: $buttonBackground;
+  border: $buttonBorderWidth solid $buttonBorderColor;
+  border-radius: $buttonBorderRadius;
+  color: $buttonColor;
+  font-family: $buttonFont;
+  font-size: $buttonFontSize;
+  font-weight: $buttonFontWeight;
+  letter-spacing: $buttonLetterSpacing;
+  line-height: 100%;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  cursor: pointer;
+  span {
+    position: relative;
+    display: inline-block;
+  }
+  svg {
+    //@include transition(all, 0.25s);
+  }
+  &:not(.clear) {
+  }
+  @media (hover: hover) {
+    &:hover {
+      border-color: $buttonBorderColorHover;
+      background: $buttonBackgroundHover;
+      color: $buttonTextColorHover;
+    }
+  }
+}
+
+.has-buttons {
+  a {
+    display: inline-block;
+    vertical-align: -0.75em;
+  }
+}
+
+// .block-link {
+//   display: block;
+//   text-decoration: none;
+//   @media (hover: hover) {
+//     &:hover {
+//       .button:not(.clear) {
+//         color: $buttonTextColorHover;
+//       }
+//     }
+//   }
+// }
+// .block-links {
+//   .item {
+//     cursor: pointer;
+//   }
+// }
+
+.block-links {
+  > div {
+    cursor: pointer;
+  }
+}

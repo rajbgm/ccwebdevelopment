@@ -1,0 +1,93 @@
+
+section.slider {
+    div.fullwidth{max-width:100%;width:100%;}
+   .swiper{ div.swiper-pagination{bottom:80px;}
+   .swiper-pagination-bullet{opacity: 1;background: #014a98;}
+   .swiper-pagination-bullet-active {
+    background: #ff9e17 ;
+        }
+    }
+    div.solution_home{
+        position: absolute;
+        bottom: 131px;
+        margin: auto 0;
+        width: 100%;
+        max-width: 100%;
+        justify-items: center;
+    }
+    div.solution_color{
+        margin: 0 auto;
+        padding: 10px 5px;
+        border-radius: 10px 10px 0px 0px;
+
+        a.button{
+            color: #fff;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: normal;
+        }
+    }
+    p.name{margin-bottom: unset;}
+    @media (max-width: 940px) {
+        div.solution_home{
+            position: static;
+        }
+    }
+    .solution_text{padding: 40px;flex-direction: row;}
+    .modal .close {
+      position: absolute;
+      z-index: 999;
+      margin: 30px 20px;
+      top: -10px;
+      right: 0;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>') no-repeat center center;
+      background-size: contain;
+  }
+}
+
+#slider .modal {
+    position: absolute; /* or relative to section */
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #slider .modal.active {
+    display: flex;
+  }
+  
+/* colors defined new classes */
+.text-white{color:#fff !important;}
+.text-orange, .orange-color{color:#ff9e17 !important}
+.dark-color{color: #415364;}
+.blue-color{color: #014a98;}
+.bluegreen-color{color: #0083ad;}
+.teal-color{color: #02bbb4;}
+.purple-color{color: #773dbd;}
+.dark, .dark-hover:hover{background-color: #415364 !important;}
+
+.equal-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px; /* adjust spacing between columns */
+  }
+  
+  .equal-columns > .wp-block-column {
+    flex: 1 1 0%;
+    min-width: 150px; /* optional: control how it collapses */
+    text-align: center;
+  }
+
+  @media (max-width: 641px) {
+   
+    section#resources-list{
+      padding: 60px 0; 
+    }
+}

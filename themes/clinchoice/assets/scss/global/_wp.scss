@@ -1,0 +1,62 @@
+body.admin-bar{
+  @media (max-width:$mobile){
+    margin-top:0;
+    header{
+      margin-top:0;
+    }
+    #wpadminbar{
+      display:none;
+    }
+  }
+}
+.alignleft {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.alignright {
+  float: right;
+  margin: 20px 0 0 20px;
+}
+
+.admin-bar {
+  header {
+    margin-top: 32px;
+  }
+  // #hero{
+  //   margin-top:calc($headerHeight - 32px);
+  // }
+}
+
+// gravity forms
+.gform_fields{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+#{$input}{
+  width:100%;
+}
+.gfield_required{
+  vertical-align:.0525em;
+  font-size:.9em;
+}
+.gfield--type-consent legend,
+.gfield--type-honeypot,
+.hidden_label label{
+  display: none;
+}
+
+.ginput_recaptcha {
+  display: none;
+}
+
+.bg {
+  background-repeat:no-repeat;
+  background-size:cover;
+  @media (min-width: $mobileL) {
+    background-image: var(--bg-image-desktop);
+  }
+  @media (max-width: $mobile) {
+    background-image: var(--bg-image-mobile);
+  }
+}

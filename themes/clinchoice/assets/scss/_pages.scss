@@ -1,0 +1,750 @@
+#home {
+  h1 {
+    margin-bottom: 13px;
+    @include font(55, 60, 32, 38);
+    letter-spacing: -0.05em;
+  }
+  #hero {
+    padding: 0;
+    overflow: hidden;
+    .swiper-wrapper {
+      @media (min-height: 1100px) {
+        @include absoluteWrapper;
+        bottom: 450px;
+      }
+    }
+    .slide {
+      max-width: 540px;
+      p {
+        @include font(20, 30, 17, 25);
+      }
+      .button {
+        pointer-events: auto;
+      }
+    }
+  }
+  #sectors-home {
+    @include absoluteWrapper;
+    @include dark;
+    @extend .clear-buttons;
+    bottom: 0;
+    p {
+      @include font(15, 21);
+    }
+    .headline {
+      transition: margin 0.25s ease;
+      min-height: 70px;
+    }
+    .image {
+      @include size(40px);
+      position: absolute;
+    }
+    .text {
+      max-height: 125px;
+    }
+    .wp-block-columns {
+      align-items: flex-end;
+    }
+    .wp-block-column {
+      transition: all 0.5s ease;
+      padding: 25px 33px;
+      min-height: 284px;
+      overflow: hidden;
+      border-radius: 35px 0 0 0;
+      margin-bottom: -184px;
+      cursor: pointer;
+      h2 {
+        @include font(25, 29, 14, 15);
+        margin: -5px 0 0 0;
+      }
+      p,
+      .button,
+      .image {
+        opacity: 0;
+        transition: opacity 0.25s ease;
+      }
+      &:before {
+        @include pseudo(24px, 24px, "../images/arrow-popup.svg", top, right);
+        transition: all 0.5s ease;
+        margin: 10px;
+      }
+    }
+  }
+  #list {
+    background: $offwhite;
+    h2 {
+      @include font(45, 49, 28, 34);
+      margin-bottom: 15px;
+      letter-spacing: -0.02em;
+    }
+    p {
+      max-width: 540px;
+    }
+    .button {
+      margin: 25px 15px 0 0;
+    }
+    @media (min-width: $mobileL) {
+      h2 {
+        color: $blue;
+      }
+      .wp-block-group {
+        width: 1080px;
+        .is-layout-flex {
+          @include twoCol(432, 578, 1080);
+        }
+      }
+    }
+  }
+  #statistics {
+    padding: 100px;
+    background-image: url("/wp-content/uploads/bkg1@2x.jpg");
+    text-align: center;
+    h2 {
+      @include font(60, 60);
+      padding-top: 12px;
+      margin: 0;
+      border-top: 7px solid $orange;
+      color: white;
+      letter-spacing: -0.033em;
+    }
+    h3 {
+      color: #beccd5;
+      @include font(30, 48);
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+    }
+    .is-layout-flex {
+      width: 930px;
+      justify-content: space-between;
+      .wp-block-column {
+        transition: opacity 0.5s ease 0.25s;
+        opacity: 0;
+        width: 22%;
+        max-width: 200px;
+        &:has(.is-visible) {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .post-slider {
+    background-image: url("/wp-content/uploads/bkg2@2x-scaled.jpg");
+    h2 {
+      @include font(45, 49, 29, 35);
+      margin-bottom: 35px;
+      color: white;
+    }
+  }
+  #featured-insights-home {
+    .controls {
+      height: 50px;
+    }
+    .swiper-button-disabled {
+      opacity: 0.25;
+      pointer-events: none;
+    }
+  }
+  @media (min-width: $mobileL) {
+    #hero {
+      video {
+        position: absolute;
+        z-index: -1;
+        overflow: hidden;
+        right: 0;
+        @media (min-aspect-ratio: 4.001/3) {
+          bottom: -5vw;
+          width: 100%;
+          height: auto;
+        }
+        @media (max-aspect-ratio: 4/3) {
+          bottom: 0;
+          width: auto;
+          height: 100%;
+          @media (max-width: 1280px) {
+            width: 100vw;
+            height: auto;
+          }
+        }
+      }
+      .button {
+        margin-top: 30px;
+      }
+      &:before {
+        @include pseudo(100%, 1080px, "../images/banner_top.svg", top, left);
+        background-position: top left;
+        background-repeat: repeat-x;
+      }
+    }
+    #expertise-home {
+      #therapeautic-areas {
+        padding-bottom: 120px;
+      }
+    }
+    #featured-insights-home {
+      .controls {
+        margin-top: -35px;
+      }
+    }
+  }
+  @media (min-width: $desktopNav) {
+    #hero {
+      $minHeight: 900px;
+      $maxHeight: 1080px;
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      min-height: $minHeight;
+      max-height: $maxHeight;
+      br {
+        display: block;
+      }
+      > .wp-block-group {
+        margin-top: -120px;
+      }
+    }
+  }
+  @media (max-width: $breakpoint) {
+    #sectors-home {
+      left: 0;
+      width: 100%;
+      max-width: 100%;
+      .wp-block-column {
+        width: 25%;
+        &:before {
+          @include size(12px);
+          margin: 5px;
+        }
+        &:first-child {
+          left: 0;
+        }
+        &:nth-child(2) {
+          left: 25%;
+        }
+        &:nth-child(3) {
+          right: 25%;
+        }
+        &:last-child {
+          right: 0;
+        }
+      }
+    }
+  }
+  @media (max-width: 1100px) {
+    #sectors-home {
+      .wp-block-column {
+        padding: 35px 2% 0 2%;
+        @media (min-width: $mobileL) {
+          h2 {
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+        &:hover {
+          padding: 35px 2% 0 2%;
+        }
+      }
+    }
+  }
+  @media (min-width: 901px) {
+    #sectors-home {
+      .wp-block-column {
+        &:hover {
+          margin-bottom: 0;
+          padding: 40px 35px;
+          bottom: 0;
+          p,
+          .image,
+          .button {
+            opacity: 1;
+          }
+          .headline {
+            margin-left: 48px;
+          }
+          &:before {
+            margin: -20px -20px;
+            opacity: 0;
+          }
+        }
+        @media (max-width: 1100px) {
+          transition: all 0.5s ease;
+          position: absolute;
+          bottom: -200px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  @media (max-width: 900px) {
+    #sectors-home {
+      .wp-block-column {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+        width: 25%;
+        height: 65px;
+        min-height: 65px;
+        border-radius: 13px 0 0 0;
+        h2 {
+          position: absolute;
+          bottom: 8px;
+        }
+      }
+    }
+    #sector-description {
+      position: relative;
+      @include visibility(0);
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      .content {
+        padding: 30px 30px 100px 30px;
+        max-width: none;
+        min-height: 300px;
+        h2 {
+          font-size: 23px;
+          line-height: 27px;
+          margin: 0 0 0 50px;
+        }
+      }
+      .close {
+        @include size(10px);
+        position: absolute;
+        bottom: 270px;
+        right: 15px;
+        background: url("../images/close.svg") no-repeat center center;
+        cursor: pointer;
+      }
+      @media (min-width: 901) {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: $mobileNav) {
+    #hero {
+      padding-bottom: calc(38vw + 90px);
+      video {
+        position: absolute;
+        margin-top: -70px;
+        width: 100%;
+        height: 68vw;
+      }
+    }
+  }
+  @media (min-width: $mobileL) {
+    #hero {
+      .buttons {
+        margin-top: -5px;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    h2 {
+      @include centerWidth(240px, max);
+    }
+    #list {
+      .button {
+        margin-top: 12px;
+      }
+    }
+    #featured-insights-home {
+      background: $blue;
+      .controls {
+        > div {
+          &:after {
+            @include size(52px);
+          }
+        }
+      }
+    }
+  }
+}
+
+#company-overview {
+  #featured {
+    background-position: center 290px;
+  }
+  @media (min-width: $mobileL) {
+    .v3 {
+      padding-bottom: 8px;
+      background: linear-gradient(180deg, #ededed 50%, white 70%);
+    }
+  }
+  @media (max-width: $mobile) {
+    #banner {
+      .bg {
+        height: 75vw;
+        max-height: 300px;
+      }
+    }
+    .v3 {
+      padding-bottom: 0;
+    }
+  }
+}
+
+#contact-us {
+  #address {
+    h2 {
+      color: $blue;
+    }
+    h3 {
+      &.eyebrow-1 {
+        color: $baselight;
+      }
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    br {
+      display: block;
+    }
+    .is-layout-flex {
+      @include twoCol(405, 286, 730);
+      align-items: center;
+    }
+    @media (min-width: 1301px) {
+      background: #f0f0f0 url("../images/cnt_bkg1.jpg") no-repeat left center;
+    }
+    @media (max-width: 1300px) {
+      background: #f0f0f0 url("../images/tri.svg") no-repeat right top;
+      background-size: 105px;
+    }
+    @media (max-width: $desktop) {
+      .flex {
+        flex-direction: column;
+      }
+    }
+    @media (min-width: $mobileL) {
+      padding: 100px 0;
+    }
+    @media (max-width: $mobile) {
+      h2 {
+        margin-bottom: 40px;
+        padding-right: 50px;
+      }
+      p {
+        margin-bottom: 1em;
+        font-size: 20px;
+      }
+      .is-layout-flex {
+        flex-direction: row;
+        max-width: 100%;
+        padding-left: $wrapperMarginMobileHalf;
+      }
+      .image {
+        margin-top: 150px;
+      }
+    }
+  }
+}
+
+#consumer-health {
+  #list {
+    .button {
+      margin-top: 11px;
+    }
+  }
+}
+
+.expertise-child {
+  #intro {
+    .text {
+      text-align: left;
+      width: auto;
+    }
+    .arrow-list {
+      margin-top: 12px;
+      li {
+        position: relative;
+        list-style: none;
+        &:before {
+          @include pseudo(9px, 8px, "../images/arrows/down-purple.svg", center, left);
+          left: -16px;
+        }
+      }
+      a {
+        display: block;
+        padding: 5px 0;
+        color: $base;
+        &:hover {
+          color: $purple;
+        }
+      }
+    }
+  }
+  @media (min-width: $mobileL) {
+    #intro {
+      > div {
+        @include centerWidth(760px, max);
+      }
+      .arrow-list {
+        gap: 40px;
+      }
+    }
+  }
+}
+
+#leadership {
+  .modal {
+    @include modal(1155px, 0px, 40px, 30px 20px);
+    p {
+      @extend .p2a;
+      margin-bottom: 1em;
+      max-width: 600px;
+    }
+    .modal-wrapper {
+      @include dark($base, white, $orange);
+      max-height: 820px;
+      border-radius: 50px 0 0 0;
+    }
+    &.active {
+      background: rgba(#beccd5, 0.9);
+    }
+    @media (min-width: $mobileL) {
+      .image {
+        @include size(344px);
+        position: absolute;
+        left: 0;
+        margin: -30px 0 0 35px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .text {
+        padding: 90px 40px 75px 436px;
+      }
+      .details {
+        overflow-y: scroll;
+        margin-top: 38px;
+        padding-right: 20px;
+        height: 560px;
+        max-height: calc(100vh - 455px);
+        &::-webkit-scrollbar {
+          width: 7px; //Needed scrollbar thumb width to be 7px, so had to define whole scrollbar to be 7px wide.
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background: $orange;
+          border-radius: 3px;
+        }
+
+        &::-webkit-scrollbar-track {
+          background: #c2e0f3;
+          border-left: 2.5px solid transparent;
+          border-right: 2.5px solid transparent;
+          background-clip: padding-box;
+        }
+      }
+    }
+  }
+  @media (min-width: $mobileL) {
+    @media (max-height: 1180px) {
+      align-items: flex-start;
+      .modal-wrapper {
+        margin-top: 180px;
+      }
+    }
+  }
+  @media (max-width: $mobile) {
+    #leadership-team {
+      .flex {
+        gap: 30px;
+      }
+    }
+    .modal {
+      align-items: flex-start;
+      top: 70px;
+      .modal-wrapper {
+        max-height: calc(100vh - 70px);
+        border-radius: 0;
+        overflow-y: auto;
+      }
+      .content {
+        padding: 30px;
+      }
+      .close {
+        @include size(25px);
+      }
+    }
+    .image {
+      @include centerWidth(175px);
+    }
+  }
+}
+
+#environmental-social-governance {
+  @media (max-width: 400px) {
+    .max {
+      overflow-wrap: break-word;
+    }
+  }
+}
+
+#fsp {
+  @media (min-width: $mobileL) {
+    #testimonials {
+      padding-bottom: 340px;
+      background-image: url("../images/backgrounds/quote_bkg_tall.jpg");
+    }
+    #fsp-model {
+      padding-top: 340px;
+      background-image: url("../images/backgrounds/fsp_model.jpg");
+    }
+  }
+  @media (max-width: $mobile) {
+    #testimonials {
+      padding-bottom: 150px;
+    }
+    #fsp-model {
+      padding-top: 150px;
+      background-image: url("../images/backgrounds/fsp_model_m.jpg");
+    }
+  }
+}
+
+#insights {
+  #regulatory-intelligence {
+    h2 {
+      color: $blue;
+    }
+  }
+  #featured-events {
+    @media (min-width: $mobileL) {
+      margin-top: -170px;
+    }
+  }
+}
+
+#pharma-biotech {
+  // path: /solutions/post-marketing-real-world-evidence/regulatory-affairs/pharma-biotech/
+  .electronic-submissions-publishing {
+    width: 1060px;
+    .is-layout-flex {
+      &:not(.image-col) {
+        @include twoCol(460, 520, 1060);
+        align-items: flex-start;
+        max-width: 100% !important;
+      }
+    }
+    .image {
+      &.chart {
+        img {
+          border-radius: unset;
+          box-shadow: unset;
+        }
+      }
+    }
+    @media (min-width: $mobileL) {
+      .is-layout-flex {
+        gap: 70px;
+      }
+      .image {
+        &:first-child {
+          @include centerWidth(309px, max);
+        }
+        &.chart {
+          position: absolute;
+          z-index: -1;
+          margin-top: -50px;
+        }
+      }
+    }
+    @media (max-width: $mobile) {
+      .wp-block-column {
+        width: 100%;
+      }
+      .image {
+        &.chart {
+          max-width: none;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+#privacy-policy {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media (min-width: $mobileL) {
+      br {
+        display: none;
+      }
+      .button {
+        margin: 10px;
+      }
+    }
+    @media (max-width: $mobile) {
+      br {
+        display: block;
+      }
+      .button {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+.search {
+  #banner {
+    min-height: 420px !important;
+    .bg {
+      &:after {
+        margin-left: 0;
+      }
+    }
+  }
+  #results {
+    .wrapper {
+      width: 770px;
+    }
+  }
+  #results-list {
+    margin-top: 110px;
+    .block-link {
+      padding: 50px 0;
+      border-bottom: 1px solid $baselighter;
+      h3 {
+        color: $blue;
+      }
+    }
+  }
+}
+
+.sectors-child,
+.solutions-child {
+  #list {
+    @extend .gradient-bg;
+  }
+}
+.solutions-child {
+  &.level-3,
+  &.level-4,
+  &.level-5 {
+    .breadcrumbs {
+      display: block;
+      span {
+        span {
+          &:first-child {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  &:not(:has(#featured)) {
+    #value {
+      @media (min-width: $mobileL) {
+        padding-bottom: 130px;
+      }
+    }
+  }
+}

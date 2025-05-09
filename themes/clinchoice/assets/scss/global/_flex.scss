@@ -1,0 +1,64 @@
+.flex,
+.is-layout-flex {
+	$flex-children: "> div, > li, > a";
+	display: flex;
+	> div {
+		position: relative;
+		flex-basis: unset !important;
+	}
+	&.align-center {
+		align-items: center;
+	}
+	&.global {
+		flex-direction: row;
+	}
+	&.wrap {
+		flex-wrap: wrap;
+	}
+	@media (min-width: $mobileL) {
+		&.max-2 {
+			> div {
+				width: 50%;
+			}
+		}
+		&.max-3 {
+			> div {
+				width: calc(100% / 3);
+			}
+		}
+		&.max-4 {
+			> div {
+				width: calc(100% / 4);
+			}
+		}
+	}
+	@media (max-width: $mobile) {
+		&:not(.flex-mobile) {
+			flex-direction: column;
+		}
+	}
+	@media (max-width: $tablet) {
+		&.flex-m {
+			flex-direction: column;
+			&.wrap {
+				> div {
+					width: 100%;
+				}
+			}
+		}
+	}
+	@media (max-width: $desktop) {
+		&.flex-l {
+			flex-direction: column;
+			&.wrap {
+				> div {
+					width: 100%;
+				}
+			}
+		}
+	}
+	#{$flex-children} {
+		display: block;
+		margin: 0;
+	}
+}

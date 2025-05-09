@@ -1,0 +1,159 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background: white;
+  line-height: 0;
+  .content {
+    padding: 40px;
+    background: white;
+  }
+  .category {
+    margin-bottom: 8px;
+  }
+  .title {
+    margin-bottom: 15px;
+  }
+  .excerpt {
+    margin-bottom: 12px;
+  }
+  .button {
+    color: $bluegreen;
+    &:hover {
+      color: $teal;
+      background: unset;
+    }
+  }
+  .image {
+    img {
+      width: auto;
+      height: auto;
+      min-width: 100%;
+    }
+  }
+  @media (max-width: $mobileL) {
+    .image {
+      max-height: 250px;
+    }
+  }
+  @media (min-width: $tabletL) {
+    .content {
+      min-height: 316px;
+    }
+    &.card-v {
+      width: calc(33.3% - 10px);
+    }
+  }
+}
+
+#resources-swiper {
+  $arrowMargins: 80px;
+  position: relative;
+  width: 1160px;
+  .swiper {
+    z-index:-1;
+    padding-bottom: 50px;
+  }
+  .swiper-pagination {
+    position: absolute;
+    top: auto;
+    margin-top: 45px;
+    height: 1px;
+    overflow: visible;
+    border-radius: 5px;
+    background: white;
+    .swiper-pagination-progressbar-fill {
+      margin-top: -3px;
+      height: 7px;
+      background: $orange;
+    }
+  }
+  .controls {
+    position: absolute;
+    margin-left: calc($arrowMargins * -1);
+    > div {
+      $width: 75px;
+      position: absolute;
+      margin-top: -7px;
+      width: $width;
+      right: auto;
+      left: auto;
+      cursor: pointer;
+      &:after {
+        @include pseudo($width, $width, "../images/arrow-orange-circle.svg");
+      }
+      &:hover {
+        &:after {
+          background-image: url("../images/arrow-orange-circle.svg");
+        }
+      }
+      &.swiper-button-next-posts {
+        right: 35px;
+      }
+      &.swiper-button-prev-posts {
+        left: -5px;
+        &:after {
+          transform: scale(-1);
+          margin-top: -0.5em;
+        }
+      }
+    }
+  }
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+    background: $baselight;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  @media (min-width: 1441px) {
+    .card {
+      min-height: 515px;
+    }
+    .controls {
+      width: calc($wrapperWidth + ($arrowMargins * 2));
+      top: calc(50% - 28px);
+      > div {
+        &.swiper-button-disabled {
+          //display: none;
+        }
+      }
+    }
+  }
+  @media (max-width: 1440px) {
+    .swiper-pagination {
+      width: calc(100% - 130px);
+      margin-left: 65px;
+    }
+    .controls {
+      width: 100%;
+      left: 80px;
+      margin-top: -4px;
+      > div {
+        margin-top:-3px;
+        &.swiper-button-next-posts {
+          right: -5px;
+        }
+      }
+    }
+  }
+  @media (max-width: $tablet) {
+    .image {
+      height: 45vw;
+      max-height: none;
+    }
+    .controls {
+      margin-top: -24px;
+      > div {
+        &.swiper-button-next-posts {
+          right: -25px;
+        }
+      }
+    }
+  }
+}

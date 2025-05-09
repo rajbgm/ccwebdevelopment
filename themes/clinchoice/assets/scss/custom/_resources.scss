@@ -1,0 +1,417 @@
+#post {
+  h1 {
+    margin: 42px 0 0 0;
+  }
+  .breadcrumbs {
+    display: block;
+  }
+  .flex {
+    @include articleAside(721, 360);
+    align-items: flex-start;
+  }
+  article {
+    p {
+      @extend .v1;
+    }
+    .image {
+      @include rounded(10px);
+      box-shadow: 0px 4px 7px rgba($base, 0.15);
+      img {
+        width: 100%;
+      }
+    }
+    .entry-details {
+      margin: 35px 0;
+    }
+    .share {
+      @include social;
+      margin-top: 4px;
+      h3 {
+        margin: 0;
+      }
+      div {
+        margin-left: 8px;
+      }
+      svg {
+        cursor: pointer;
+        &:hover {
+          path {
+            fill: $teal;
+          }
+        }
+      }
+    }
+    .entry-content {
+      h2,
+      h3 {
+        @extend .h3a;
+        @extend .bluegreen-text;
+        margin-top: 30px !important;
+        strong {
+          font-weight: 500;
+        }
+      }
+      h2 {
+        @extend .h3;
+      }
+      li {
+        a {
+          @extend .bluegreen-text;
+        }
+      }
+      hr {
+        margin: 43px 0;
+        width: 40px;
+        height: 2px;
+        background: #beccd5;
+        border: 0;
+      }
+      button {
+        @include font(18, 23);
+        padding: 7px 23px;
+        margin-top: 30px;
+      }
+    }
+    #main-content {
+      @extend .gradient-bg;
+    }
+  }
+  aside {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+    background: $baselighterAlt;
+    a {
+      font-weight: 500;
+    }
+    h3 {
+      color: $blue;
+    }
+    > div {
+      &:not(:last-child) {
+        margin-bottom: 50px;
+      }
+    }
+    h2 {
+      @extend h3;
+      @extend .h3a;
+      text-align: left;
+    }
+    label {
+      @include font(15, 16, 14, 15);
+    }
+    #{$input} {
+      height: 34px;
+    }
+    .gform_footer {
+      margin-top: 15px;
+    }
+    .gform_confirmation_message {
+      color: $blue;
+      font-weight: 500;
+      br {
+        display: none;
+      }
+    }
+    .button {
+      text-align: left;
+      &:after {
+        @include pseudo(13px, 11px, "", "", "", relative);
+        margin-left: 4px;
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11.078"><defs><clipPath id="a1"><path d="M0 0h14v11.078H0z" data-name="Rectangle 70"/></clipPath></defs><g clip-path="url(%23a1)" data-name="Group 63"><path d="M13.721 4.86 9.182.321a.963.963 0 0 0-1.449 1.27.974.974 0 0 0 .087.089l2.894 2.9H.963a.964.964 0 1 0 0 1.927h9.75L7.821 9.4a.963.963 0 0 0 .567 1.679h.076a.963.963 0 0 0 .715-.319l4.541-4.541a.966.966 0 0 0 0-1.359" data-name="Path 135" fill="%23004A98" /></g></svg>');
+      }
+      &:hover {
+        color: $purple;
+        &:after {
+          background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11.078"><defs><clipPath id="a1"><path d="M0 0h14v11.078H0z" data-name="Rectangle 70"/></clipPath></defs><g clip-path="url(%23a1)" data-name="Group 63"><path d="M13.721 4.86 9.182.321a.963.963 0 0 0-1.449 1.27.974.974 0 0 0 .087.089l2.894 2.9H.963a.964.964 0 1 0 0 1.927h9.75L7.821 9.4a.963.963 0 0 0 .567 1.679h.076a.963.963 0 0 0 .715-.319l4.541-4.541a.966.966 0 0 0 0-1.359" data-name="Path 135" fill="%23773DBD" /></g></svg>');
+        }
+      }
+    }
+    .insights,
+    .recent {
+      a {
+        @include font(17, 23, 15, 21);
+        &:not(:last-child) {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+  @media (min-width: $mobileL) {
+    #main-content {
+      padding-top: 100px;
+    }
+  }
+  @media (max-width: $mobile) {
+    aside {
+      margin-top: 60px;
+      h2 {
+        font-size: 28px !important;
+        line-height: 34px !important;
+        text-align: center;
+      }
+      #{$input} {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+#insights {
+  #intro {
+    padding-bottom: 205px;
+    text-align:center;
+  }
+  .more {
+    color: $bluegreen;
+    font-weight:600;
+    &:hover {
+      color: $teal;
+    }
+  }
+  @media (max-width:$mobile){
+    #intro{
+      padding-bottom:167px;
+    }
+  }
+}
+#spotlight {
+  .wrapper {
+    width: 1160px;
+    > h2 {
+      color: white;
+      text-align: center;
+    }
+  }
+  .flex {
+    @include twoCol(629, "", $wrapperWidth, $desktopL);
+    overflow: hidden;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+  }
+  .text {
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    margin-top: 2px;
+  }
+  &:before {
+    @include pseudo(100%, 495px, "../images/backgrounds/ins_bkg2.jpg", top, center);
+    background-size: cover;
+  }
+  @media (min-width: $desktopL) {
+    padding: 212px 0 0 0;
+    #spotlight {
+      height: 409px;
+    }
+    .image {
+      min-height: 409px;
+      background-position: center center;
+      background-size: cover;
+      img {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: $desktop) {
+    padding-top: 322px;
+    .flex {
+      @include centerWidth(793px, max);
+      flex-direction: column;
+    }
+  }
+  @media (min-width: $mobileL) {
+    .wrapper {
+      > h2 {
+        margin-bottom: 43px;
+      }
+    }
+    .text {
+      padding: 60px;
+    }
+  }
+  @media (max-width: $mobile) {
+    h2 {
+      margin: 56px 0 32px 0;
+    }
+    .text {
+      padding: 40px 30px;
+    }
+    &:before {
+      background-image: url("../images/backgrounds/bkg1_m.jpg");
+    }
+  }
+}
+#resources-filter {
+  .button {
+    margin: 0 5px;
+    font-size: 17px;
+    &.current {
+      background: $blue !important;
+    }
+  }
+  div {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  select {
+    color: $teal;
+    font-weight: bold;
+    option {
+      color: $base;
+    }
+  }
+  .facetwp-radio {
+    @include font(17, 17, 14, 15);
+    margin-bottom: 10px;
+    padding: 7px 12px 7px 17px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+    background: $bluegreen;
+    color: white;
+    font-weight: 600;
+    line-height: 100%;
+    &:first-child {
+      padding-right: 17px;
+    }
+    &:hover {
+      background: $teal;
+    }
+    &.checked {
+      background: $blue;
+    }
+  }
+  .facetwp-counter {
+    display: none;
+  }
+  @media (max-width: $breakpoint) {
+    .categories {
+      @include centerWidth(720px, max);
+    }
+  }
+  @media (min-width: $mobileL) {
+    position: absolute;
+    width: 100%;
+    margin-top: -78px;
+  }
+  @media (max-width: $mobile) {
+    margin: -25px 0 45px 0;
+    .facetwp-radio {
+      margin: 6px 5px;
+      padding: 5px 12px 5px 17px;
+    }
+  }
+}
+#posts,
+#events #resources-list {
+  .wrapper {
+    width: 1160px;
+  }
+  .flex {
+    justify-content: center;
+  }
+  .post {
+    overflow: hidden;
+    border-radius: 16px 16px;
+    box-shadow: 0px 4px 7px rgba($base, 0.15);
+    a {
+      &:hover {
+        span {
+          color: $teal;
+        }
+      }
+    }
+  }
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 195px;
+    background: $baselight;
+    text-align: center;
+    line-height: 0;
+    img {
+      max-height: 100%;
+    }
+  }
+  .text {
+    padding: 48px 40px 40px 40px;
+    p {
+      margin-bottom: 13px;
+    }
+  }
+  @media (min-width: $mobileL) {
+    .flex {
+      @include flexGap(40px, 2);
+    }
+    #resources-list {
+      padding-top: 25px;
+    }
+  }
+  @media (min-width: $desktopL) {
+    .flex {
+      @include flexGap(40px, 3, 1024px);
+    }
+  }
+  @media (max-width: $mobile) {
+    .post {
+      margin-bottom: 40px;
+    }
+    .text {
+      padding: 40px 30px;
+    }
+  }
+}
+#posts {
+  @media (max-width: $mobileL) {
+    padding-top: 0;
+  }
+}
+
+#event-list {
+  padding-top: 0;
+  > div {
+    width: 100%;
+    max-width: 100%;
+  }
+  a span {
+    color: $bluegreen;
+  }
+  h3 {
+    &.eyebrow-3 {
+      margin: 10px 0 5px 0;
+    }
+  }
+  p {
+    line-height: 1.4em;
+  }
+  #spotlight {
+    a {
+      color: $bluegreen;
+    }
+    &:before {
+      @include pseudo(100%, 435px, "../images/backgrounds/ins_bkg2.jpg", top, center);
+      background-size: cover;
+    }
+    @media (min-width: $mobileL) {
+      padding-top: 100px;
+      img {
+        height: 409px;
+      }
+    }
+    @media (max-width: $mobile) {
+      padding-top: 60px;
+    }
+  }
+  #resources-list {
+    margin-top: 50px;
+    @media (max-width: $mobile) {
+      .image {
+        height: calc((100vw - $wrapperMarginMobile) * 0.545);
+      }
+    }
+  }
+}

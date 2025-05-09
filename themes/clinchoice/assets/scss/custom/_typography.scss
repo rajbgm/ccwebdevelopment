@@ -1,0 +1,115 @@
+h1:not(.h2, .h3),
+.h1 {
+  @include font(42, 48, 30, 36);
+  margin-bottom: calc(30px - 15px);
+  font-weight: 700;
+  &:not(.dark h1) {
+    color: $blue;
+  }
+}
+h2:not(.h1, .h3),
+.h2 {
+  @include font(37, 43, 28, 34);
+  margin: -7px 0 15px 0;
+  &.h2a {
+    @include font(40, 47, 28, 34);
+  }
+  &:not(.dark h2) {
+    color: $purple;
+  }
+}
+h3:not(.h1, .h2),
+.h3 {
+  @include font(33, 39, 26, 32);
+  margin: -8px 0 15px 0;
+  &.h3a {
+    @include font(25, 29, 23, 27);
+  }
+  &.h3b {
+    @include font(22, 26, 21, 25);
+  }
+  &.h3c {
+    @include font(23, 23, 18, 19);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  &.eyebrow-1 {
+    @include font(20, 21, 14, 15);
+    color: $purple;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    &.v1 {
+      @include font(16, 19, 14, 15);
+      margin-bottom: 0;
+    }
+    &.v2 {
+      @include font(20, 21, 17, 25);
+    }
+  }
+  &.eyebrow-2 {
+    @include font(15, 16);
+    color: $teal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  &.eyebrow-3 {
+    @include font(13, 14);
+    color: $baselight;
+    text-transform: uppercase;
+  }
+}
+p,
+li {
+  &.p1a {
+    @include font(20, 30, 17, 25);
+  }
+  &.p1b {
+    @include font(20, 26, 17, 25);
+  }
+  &.p2a {
+    @include font(17, 27, 15, 21);
+    &.v1 {
+      @media (max-width: $mobile) {
+        line-height: 23px;
+      }
+    }
+  }
+  &.p2b {
+    @include font(17, 23, 15, 21);
+  }
+}
+
+.button {
+  margin-top: 5px;
+}
+
+.hero {
+  h1 {
+    @include font(42, 46);
+  }
+  h3 {
+    margin-bottom: 41px;
+    color: $purple;
+    @include font(20, 27);
+    letter-spacing: 0em;
+    text-transform: uppercase;
+  }
+  p {
+    @include font(20, 30);
+  }
+}
+
+.two-col-container {
+  h2 {
+    margin-bottom: 28px;
+    color: $purple;
+    @include font(37, 47);
+  }
+  p {
+    margin-bottom: 1em;
+    &:last-of-type {
+      margin-bottom: 37px;
+    }
+  }
+}

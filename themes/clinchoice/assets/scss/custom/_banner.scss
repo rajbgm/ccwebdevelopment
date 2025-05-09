@@ -1,0 +1,120 @@
+#banner {
+  overflow: hidden;
+  padding: 0;
+  h3 {
+    @extend .eyebrow-1;
+    margin-top: 0;
+    margin-bottom: calc(41px - 15px);
+    color: $purple;
+  }
+  p {
+    @extend .p1a;
+    color: $base;
+  }
+  @media (min-width: $breakpoint) {
+    .bg {
+      width: 60% !important;
+    }
+  }
+  @media (min-width: $desktopL) {
+    display: flex;
+    align-items: center;
+    min-height: 430px;
+    padding: 100px 0;
+    h1 {
+      margin-bottom: 0;
+      max-width: 50%;
+    }
+    h3 {
+      margin-top: 2px;
+    }
+    > .wp-block-group {
+      margin-top: 104px;
+    }
+    .bg {
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      right: 0;
+      width: 50%;
+      min-height: 500px;
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      &:before {
+        @include pseudo(100%, 1000px, "../images/banner_top.svg", top, left);
+        background-position: top left;
+        background-repeat: repeat-x;
+      }
+      &:after {
+        @include pseudo(50%, 1000px, "../images/banner_left.svg", top, left);
+        margin-left: -12%;
+        background-repeat: repeat-y;
+        background-position: top left;
+      }
+    }
+    .text {
+      max-width: 560px;
+    }
+    &:has(.text) {
+      h1 {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  @media (max-width: $desktop) {
+    h3 {
+      margin-bottom: calc(35px - 15px);
+    }
+    .bg {
+      position: relative;
+      margin-top:25px;
+      height: 42.5vw;
+      background-size: cover;
+      background-position: bottom;
+      &:before {
+        @include locked;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 100vw;
+        height: 25vw;
+        background: linear-gradient(180deg, rgba(white, 1) 15%, rgba(white, 0) 50%);
+        content: "";
+      }
+    }
+    .content div {
+      max-width: 700px;
+    }
+  }
+}
+
+.banner-0 {
+  @media (min-width: $desktopL) {
+    #banner {
+      min-height: 420px !important;
+      .bg {
+        &:before {
+          border-top:20px solid white;
+        }
+      }
+    }
+  }
+}
+.banner-1 {
+  @media (min-width: $desktopL) {
+    #banner {
+      min-height: 600px !important;
+    }
+  }
+}
+.banner-2 {
+  @media (min-width: $breakpoint) {
+    #banner {
+      min-height: 850px !important;
+      .bg {
+        width: 70%;
+      }
+    }
+  }
+}

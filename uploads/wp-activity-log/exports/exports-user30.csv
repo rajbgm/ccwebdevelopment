@@ -1,0 +1,1447 @@
+ID,Severity,Date,User,IP,Object,"Event Type",Message
+4015,Low,"August 14, 2024
+9:31:41.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Modified,"Changed the value of the custom field wp_dashboard_quick_press_last_post_id in the user profile matte@sagefrog.com.
+Role: administrator
+First name: Matt
+Last name: Engelson
+Previous value: 3161
+New value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=3
+"
+1000,Low,"August 19, 2024
+5:52:32.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+4015,Low,"August 19, 2024
+5:52:38.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Changed the value of the custom field wp_dashboard_quick_press_last_post_id in the user profile sagefrog.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 3156
+New value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=1
+"
+4015,Low,"August 21, 2024
+6:18:49.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.144.192,User,Modified,"Changed the value of the custom field wp_dashboard_quick_press_last_post_id in the user profile rajashekhar.c@clinchoice.com.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 3352
+New value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=23
+"
+1002,Medium,"August 23, 2024
+6:10:18.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.169.215.104,User,"Failed Login","1 failed login(s)."
+1002,Medium,"August 23, 2024
+6:11:18.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,"Failed Login","1 failed login(s)."
+1000,Low,"August 23, 2024
+6:11:44.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,Login,"User logged in."
+4014,Informational,"August 23, 2024
+6:12:07.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 23, 2024
+6:14:28.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 23, 2024
+6:16:12.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 23, 2024
+6:17:19.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 23, 2024
+6:20:10.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 23, 2024
+6:21:11.000&nbsp;am","Rajashekhar C
+Administrator",49.205.146.103,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+1000,Low,"August 28, 2024
+11:39:34.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Login,"User logged in."
+4014,Informational,"August 28, 2024
+11:41:58.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+1002,Medium,"August 28, 2024
+11:45:22.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.140.16.53,User,"Failed Login","1 failed login(s)."
+1002,Medium,"August 28, 2024
+11:48:06.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.140.16.53,User,"Failed Login","1 failed login(s)."
+1002,Medium,"August 28, 2024
+11:49:25.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.140.16.53,User,"Failed Login","1 failed login(s)."
+1002,Medium,"August 28, 2024
+11:49:32.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.140.16.53,User,"Failed Login","1 failed login(s)."
+4014,Informational,"August 28, 2024
+11:49:57.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 28, 2024
+11:53:12.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 28, 2024
+11:55:07.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4014,Informational,"August 28, 2024
+11:57:23.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Editor
+First name: aiswarya
+Last name: v
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4016,Low,"August 28, 2024
+11:57:37.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Modified,"Created the custom field wpseo_metadesc in the user profile aiswarya.v@clinchoice.com.
+Role: editor
+First name: aiswarya
+Last name: v
+Custom field value: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=37"
+4007,High,"August 28, 2024
+12:00:20.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.148.28,User,Deleted,"Deleted the user aiswarya.v@clinchoice.com.
+Role: editor
+First name: 
+Last name:"
+1000,Low,"August 28, 2024
+12:09:59.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.148.28,User,Login,"User logged in."
+4014,Informational,"August 28, 2024
+12:12:12.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.148.28,User,Opened,"Opened the profile page of user benjamin.varghese@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=6"
+1001,Low,"August 28, 2024
+12:26:51.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.148.28,User,Logout,"User logged out."
+1000,Low,"August 28, 2024
+12:27:51.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.148.28,User,Login,"User logged in."
+1000,Low,"August 28, 2024
+5:44:50.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+4014,Informational,"August 30, 2024
+3:11:05.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:12:03.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:12:21.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4016,Low,"August 30, 2024
+3:12:21.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field wpseo_metadesc in the user profile aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+Custom field value: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:12:39.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:12:59.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:13:40.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:17:32.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:19:21.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:19:26.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4016,Low,"August 30, 2024
+3:20:26.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field nickname in the user profile aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+Custom field value: aiswarya.v@clinchoice.com
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4016,Low,"August 30, 2024
+3:20:26.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field first_name in the user profile aiswarya.v@clinchoice.com.
+Role: 
+First name: 
+Last name: 
+Custom field value: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4002,Critical,"August 30, 2024
+3:20:32.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Changed the role of user aiswarya.v@clinchoice.com to Administrator.
+Previous role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:20:48.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4016,Low,"August 30, 2024
+3:20:54.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field wfls-allow-grace-period in the user profile aiswarya.v@clinchoice.com.
+Role: administrator
+First name: 
+Last name: 
+Custom field value: 1
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4016,Low,"August 30, 2024
+3:20:54.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field wfls-grace-period-reset in the user profile aiswarya.v@clinchoice.com.
+Role: administrator
+First name: 
+Last name: 
+Custom field value: 1725031254
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4016,Low,"August 30, 2024
+3:20:54.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field wfls-grace-period-override in the user profile aiswarya.v@clinchoice.com.
+Role: administrator
+First name: 
+Last name: 
+Custom field value: 7
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4014,Informational,"August 30, 2024
+3:20:56.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4007,High,"August 30, 2024
+3:21:13.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Deleted,"Deleted the user Brook Logan.
+Role: none
+First name: 
+Last name:"
+4029,High,"August 30, 2024
+3:22:42.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Submitted,"Sent a password reset request to the user aiswarya.v@clinchoice.com.
+Role: Administrator
+First name:  
+Last name:"
+1010,Informational,"August 30, 2024
+3:22:43.000&nbsp;pm","aiswarya.v@clinchoice.comDeleted user",100.14.16.117,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1000,Low,"August 30, 2024
+4:37:08.000&nbsp;pm","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Login,"User logged in."
+4016,Low,"August 30, 2024
+4:37:11.000&nbsp;pm","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Modified,"Created the custom field wp_dashboard_quick_press_last_post_id in the user profile aiswarya.v@clinchoice.com.
+Role: administrator
+First name: 
+Last name: 
+Custom field value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+1001,Low,"August 30, 2024
+4:39:34.000&nbsp;pm","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Logout,"User logged out."
+1000,Low,"September 2, 2024
+9:22:15.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Login,"User logged in."
+1000,Low,"September 2, 2024
+11:15:29.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Login,"User logged in."
+1001,Low,"September 2, 2024
+11:16:52.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Logout,"User logged out."
+1000,Low,"September 2, 2024
+11:27:46.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Login,"User logged in."
+1001,Low,"September 2, 2024
+11:45:58.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Logout,"User logged out."
+1000,Low,"September 2, 2024
+11:46:07.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Login,"User logged in."
+1001,Low,"September 2, 2024
+11:46:36.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.209.77,User,Logout,"User logged out."
+1000,Low,"September 6, 2024
+9:38:19.000&nbsp;am","Rajashekhar C
+Administrator",49.205.148.28,User,Login,"User logged in."
+1000,Low,"September 6, 2024
+9:43:26.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.168.201.136,User,Login,"User logged in."
+1000,Low,"September 9, 2024
+5:39:19.000&nbsp;am","Rajashekhar C
+Administrator",49.205.147.23,User,Login,"User logged in."
+1000,Low,"September 11, 2024
+1:39:46.000&nbsp;pm","Claudia
+Administrator",93.70.83.171,User,Login,"User logged in."
+4015,Low,"September 11, 2024
+1:40:19.000&nbsp;pm","Claudia
+Administrator",93.70.83.171,User,Modified,"Changed the value of the custom field wp_dashboard_quick_press_last_post_id in the user profile Claudia.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 3160
+New value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=32
+"
+1001,Low,"September 12, 2024
+7:30:29.000&nbsp;am","Claudia
+Administrator",93.70.83.171,User,Logout,"User logged out."
+1000,Low,"September 12, 2024
+2:45:01.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+4015,Low,"September 12, 2024
+2:45:07.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field wp_dashboard_quick_press_last_post_id in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 3353
+New value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+1000,Low,"September 12, 2024
+2:58:07.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1001,Low,"September 12, 2024
+3:01:15.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1000,Low,"September 12, 2024
+3:49:09.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+1000,Low,"September 12, 2024
+3:49:50.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+1000,Low,"September 12, 2024
+4:04:22.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+4015,Low,"September 12, 2024
+4:04:22.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Changed the value of the custom field wfls-last-login in the user profile sagefrog.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 1726156190
+New value: 1726157062
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=1
+"
+1000,Low,"September 13, 2024
+1:37:54.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1001,Low,"September 13, 2024
+2:56:07.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1000,Low,"September 13, 2024
+3:11:10.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1001,Low,"September 13, 2024
+3:17:45.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1000,Low,"September 13, 2024
+5:35:33.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+1000,Low,"September 13, 2024
+7:09:01.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Login,"User logged in."
+4015,Low,"September 13, 2024
+7:09:01.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Modified,"Changed the value of the custom field wfls-last-login in the user profile matte@sagefrog.com.
+Role: administrator
+First name: Matt
+Last name: Engelson
+Previous value: 1722532009
+New value: 1726254541
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=3
+"
+4015,Low,"September 13, 2024
+7:09:01.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Modified,"Changed the value of the custom field WPE_LAST_LOGIN_TIME in the user profile matte@sagefrog.com.
+Role: administrator
+First name: Matt
+Last name: Engelson
+Previous value: 1722532009
+New value: 1726254541
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=3
+"
+1002,Medium,"September 13, 2024
+8:18:46.000&nbsp;pm","aprilg@sagefrog.comDeleted user",72.78.68.164,User,"Failed Login","1 failed login(s)."
+1000,Low,"September 16, 2024
+2:24:21.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1001,Low,"September 16, 2024
+2:34:24.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1002,Medium,"September 17, 2024
+1:47:29.000&nbsp;pm","sagefrog
+Administrator",76.6.65.48,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 17, 2024
+1:47:34.000&nbsp;pm","sagefrog
+Administrator",76.6.65.48,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 17, 2024
+1:47:47.000&nbsp;pm","aprilg@sagefrog.comDeleted user",76.6.65.48,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 17, 2024
+3:01:21.000&nbsp;pm","sagefrog
+Administrator",76.6.65.48,User,"Failed Login","1 failed login(s)."
+4001,Critical,"September 17, 2024
+3:42:45.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Created,"Created the new user: Pennington Nguyen.
+Role: administrator
+First name: Pennington
+Last name: Nguyen
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=74"
+4029,High,"September 17, 2024
+3:42:46.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Submitted,"Sent a password reset request to the user Pennington Nguyen.
+Role: Administrator
+First name: Pennington
+Last name: Nguyen"
+4014,Informational,"September 17, 2024
+3:47:36.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user Pennington Nguyen.
+Role: Administrator
+First name: Pennington
+Last name: Nguyen
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=74"
+4014,Informational,"September 17, 2024
+3:47:36.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user Pennington Nguyen.
+Role: Administrator
+First name: Pennington
+Last name: Nguyen
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=74"
+4014,Informational,"September 17, 2024
+3:47:40.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user Pennington Nguyen.
+Role: Administrator
+First name: Pennington
+Last name: Nguyen
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=74"
+4004,High,"September 17, 2024
+3:48:13.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Modified,"Changed the password of the user Pennington Nguyen.
+Role: Administrator
+First name: Pennington
+Last name: Nguyen
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=74"
+4006,Medium,"September 17, 2024
+3:48:13.000&nbsp;pm","Matt Engelson
+Administrator",100.14.16.117,User,Modified,"Changed the email address of the user Pennington Nguyen to pennington.n@sagefrog.com.
+Role: Administrator
+First name: Pennington
+Last name: Nguyen
+Previous email address: penningtonn@sagefrog.com
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=74"
+1000,Low,"September 17, 2024
+3:49:27.000&nbsp;pm","Pennington NguyenDeleted user",76.6.65.48,User,Login,"User logged in."
+1000,Low,"September 17, 2024
+3:49:27.000&nbsp;pm","Pennington NguyenDeleted user",76.6.65.48,User,Login,"User logged in."
+4016,Low,"September 17, 2024
+3:49:33.000&nbsp;pm","Pennington NguyenDeleted user",76.6.65.48,User,Modified,"Created the custom field wp_dashboard_quick_press_last_post_id in the user profile Pennington Nguyen.
+Role: administrator
+First name: Pennington
+Last name: Nguyen
+Custom field value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=74"
+1000,Low,"September 17, 2024
+4:22:53.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1000,Low,"September 17, 2024
+4:23:01.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+4015,Low,"September 17, 2024
+4:23:01.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field wfls-last-login in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 1726590173
+New value: 1726590180
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+1001,Low,"September 17, 2024
+4:27:59.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1001,Low,"September 18, 2024
+4:55:18.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.208.65,User,Logout,"User logged out."
+1000,Low,"September 18, 2024
+5:01:31.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.208.65,User,Login,"User logged in."
+1001,Low,"September 18, 2024
+5:04:14.000&nbsp;am","aiswarya.v@clinchoice.comDeleted user",103.147.208.65,User,Logout,"User logged out."
+1000,Low,"September 18, 2024
+1:44:30.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1001,Low,"September 18, 2024
+1:55:42.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1000,Low,"September 18, 2024
+1:56:36.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+4015,Low,"September 18, 2024
+2:00:09.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field wp_user-settings in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: libraryContent=browse
+New value: libraryContent=browse&editor=tinymce
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 18, 2024
+2:00:09.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field wp_user-settings-time in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 1721845183
+New value: 1726668004
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 19, 2024
+1:35:07.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 0
+New value: 110
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 19, 2024
+1:36:21.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.150.178,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile rajashekhar.c@clinchoice.com.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 0
+New value: 110
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=23
+"
+4015,Low,"September 19, 2024
+1:36:43.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.150.178,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile rajashekhar.c@clinchoice.com.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 110
+New value: 0
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=23
+"
+1000,Low,"September 20, 2024
+1:39:42.000&nbsp;am","Bill Zhang
+Unknown",108.2.61.11,User,Login,"User logged in."
+1000,Low,"September 20, 2024
+1:42:24.000&nbsp;am","Bill Zhang
+Unknown",108.2.61.11,User,Login,"User logged in."
+4015,Low,"September 20, 2024
+1:42:24.000&nbsp;am","Bill Zhang
+Unknown",108.2.61.11,User,Modified,"Changed the value of the custom field wfls-last-login in the user profile Bill Zhang.
+Role: 
+First name: 
+Last name: 
+Previous value: 1726796382
+New value: 1726796544
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30
+"
+1000,Low,"September 20, 2024
+1:43:53.000&nbsp;am","Bill Zhang
+Unknown",108.2.61.11,User,Login,"User logged in."
+4015,Low,"September 20, 2024
+1:43:53.000&nbsp;am","Bill Zhang
+Unknown",108.2.61.11,User,Modified,"Changed the value of the custom field wfls-last-login in the user profile Bill Zhang.
+Role: 
+First name: 
+Last name: 
+Previous value: 1726796544
+New value: 1726796633
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30
+"
+1002,Medium,"September 20, 2024
+1:32:22.000&nbsp;pm","sagefrog
+Administrator",98.110.54.90,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+1:33:14.000&nbsp;pm","aprilg@sagefrog.comDeleted user",98.110.54.90,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+1:33:14.000&nbsp;pm","aprilg@sagefrog.comDeleted user",98.110.54.90,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+1:33:33.000&nbsp;pm","sagefrog
+Administrator",98.110.54.90,User,"Failed Login","1 failed login(s)."
+1000,Low,"September 20, 2024
+1:56:40.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+1001,Low,"September 20, 2024
+2:08:51.000&nbsp;pm","Rajashekhar C
+Administrator",49.205.150.178,User,Logout,"User logged out."
+1000,Low,"September 20, 2024
+2:21:02.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Login,"User logged in."
+4014,Informational,"September 20, 2024
+2:23:08.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user Bill Zhang.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+1001,Low,"September 20, 2024
+2:23:30.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Logout,"User logged out."
+1000,Low,"September 20, 2024
+2:24:24.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1000,Low,"September 20, 2024
+2:25:27.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Login,"User logged in."
+4003,High,"September 20, 2024
+2:25:48.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the password.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13"
+1001,Low,"September 20, 2024
+2:25:54.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1000,Low,"September 20, 2024
+2:26:01.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1001,Low,"September 20, 2024
+2:26:07.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1001,Low,"September 20, 2024
+2:26:31.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Logout,"User logged out."
+1000,Low,"September 20, 2024
+2:26:38.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Login,"User logged in."
+1000,Low,"September 20, 2024
+2:28:00.000&nbsp;pm","Bill Zhang
+Unknown",108.2.61.11,User,Login,"User logged in."
+4014,Informational,"September 20, 2024
+2:28:03.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user Bill Zhang.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+4014,Informational,"September 20, 2024
+2:28:09.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user Bill Zhang.
+Role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+4016,Low,"September 20, 2024
+2:28:09.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field wpseo_metadesc in the user profile Bill Zhang.
+Role: 
+First name: 
+Last name: 
+Custom field value: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+4016,Low,"September 20, 2024
+2:28:20.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field nickname in the user profile Bill Zhang.
+Role: 
+First name: 
+Last name: 
+Custom field value: Bill Zhang
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+4016,Low,"September 20, 2024
+2:28:20.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Created the custom field first_name in the user profile Bill Zhang.
+Role: 
+First name: 
+Last name: 
+Custom field value: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+4002,Critical,"September 20, 2024
+2:28:26.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Modified,"Changed the role of user Bill Zhang to Administrator.
+Previous role: 
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+4016,Low,"September 20, 2024
+2:29:28.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Modified,"Created the custom field wp_dashboard_quick_press_last_post_id in the user profile Bill Zhang.
+Role: administrator
+First name: 
+Last name: 
+Custom field value: 928
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=30"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Andrei Shpak.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user ann.arbilon@clinchoice.com.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user benjamin.varghese@clinchoice.com.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Chetan_ClinChoice.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Francis_ClinChoice.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user jake.herman.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Jeffery Alblamalic.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user john.labos@clinchoice.com.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user joice.decio@clinchoice.com.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Joseph Statts.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user karen.asuncion@clinchoice.com.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:31.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user madhumita.paul.
+Role: none
+First name: 
+Last name:"
+1001,Low,"September 20, 2024
+2:34:37.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Logout,"User logged out."
+1002,Medium,"September 20, 2024
+2:34:47.000&nbsp;pm","claudia.brutti@cromsource.comDeleted user",93.70.82.205,User,"Failed Login","1 failed login(s)."
+4007,High,"September 20, 2024
+2:34:56.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Nidhi.Sharma.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:56.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user pamela.biswas.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:56.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Prabhu.Yadav.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:56.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user prathap.ravi.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:56.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Rajesh.Dornala.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:34:56.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user rhobelyn.indon@clinchoice.com.
+Role: none
+First name: 
+Last name:"
+1002,Medium,"September 20, 2024
+2:35:14.000&nbsp;pm","claudia.brutti@cromsource.comDeleted user",93.70.82.205,User,"Failed Login","1 failed login(s)."
+4007,High,"September 20, 2024
+2:35:20.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Sanae Fujita.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:35:20.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user Tiepu Liu.
+Role: none
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:35:20.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user tim.tanaka.
+Role: none
+First name: 
+Last name:"
+1002,Medium,"September 20, 2024
+2:37:18.000&nbsp;pm","claudia.brutti@cromsource.comDeleted user",93.70.82.205,User,"Failed Login","1 failed login(s)."
+1000,Low,"September 20, 2024
+2:37:25.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Login,"User logged in."
+4014,Informational,"September 20, 2024
+2:39:44.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Opened,"Opened the profile page of user clinchoice_author.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=11"
+1001,Low,"September 20, 2024
+2:39:45.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Logout,"User logged out."
+1002,Medium,"September 20, 2024
+2:39:57.000&nbsp;pm","claudia.brutti@cromsource.comDeleted user",93.70.82.205,User,"Failed Login","1 failed login(s)."
+4014,Informational,"September 20, 2024
+2:39:57.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Opened,"Opened the profile page of user clinchoice_author.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=11"
+1010,Informational,"September 20, 2024
+2:40:18.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+4014,Informational,"September 20, 2024
+2:40:40.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Opened,"Opened the profile page of user aiswarya.v@clinchoice.com.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=36"
+4007,High,"September 20, 2024
+2:42:48.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Deleted,"Deleted the user brianai@sagefrog.com.
+Role: administrator
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:42:48.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Deleted,"Deleted the user emilyr@sagefrog.com.
+Role: administrator
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:42:48.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Deleted,"Deleted the user matte@sagefrog.com.
+Role: administrator
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:42:48.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Deleted,"Deleted the user Pennington Nguyen.
+Role: administrator
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:42:48.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Deleted,"Deleted the user sagefrog content.
+Role: administrator
+First name: 
+Last name:"
+4007,High,"September 20, 2024
+2:42:48.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Deleted,"Deleted the user sagefrog design.
+Role: administrator
+First name: 
+Last name:"
+4003,High,"September 20, 2024
+2:43:13.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Modified,"Changed the password.
+Role: 
+First name: 
+Last name: 
+User profile page: http://%EditUserLink%"
+4014,Informational,"September 20, 2024
+2:44:00.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Opened,"Opened the profile page of user Claudia.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=32"
+4006,Medium,"September 20, 2024
+2:44:15.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Modified,"Changed the email address of the user Claudia to Claudia.Brutti@clinchoice.com.
+Role: Administrator
+First name: 
+Last name: 
+Previous email address: Claudia.Brutti@cromsource.com
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=32"
+4007,High,"September 20, 2024
+2:44:49.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Deleted,"Deleted the user aiswarya.v@clinchoice.com.
+Role: administrator
+First name: 
+Last name:"
+4014,Informational,"September 20, 2024
+2:45:25.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Opened,"Opened the profile page of user justinb.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13"
+4014,Informational,"September 20, 2024
+2:45:35.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Opened,"Opened the profile page of user clinchoice_author.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=11"
+4014,Informational,"September 20, 2024
+2:45:42.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Opened,"Opened the profile page of user clinchoice_author.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=11"
+4006,Medium,"September 20, 2024
+2:45:54.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Modified,"Changed the email address of the user clinchoice_author to clinchoice_author@klserv.com.
+Role: Administrator
+First name: 
+Last name: 
+Previous email address: clinchoice_author@clinchoice.com
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=11"
+4029,High,"September 20, 2024
+2:46:15.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user Claudia.
+Role: Administrator
+First name:  
+Last name:"
+4029,High,"September 20, 2024
+2:46:16.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user clinchoice_author.
+Role: Administrator
+First name:  
+Last name:"
+4029,High,"September 20, 2024
+2:46:17.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user frank.li@clinchoice.com.
+Role: Administrator
+First name: Frank
+Last name: Li"
+4029,High,"September 20, 2024
+2:46:18.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user justinb.
+Role: Administrator
+First name:  
+Last name:"
+4029,High,"September 20, 2024
+2:46:19.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user rajashekhar.c@clinchoice.com.
+Role: Administrator
+First name:  
+Last name:"
+1010,Informational,"September 20, 2024
+2:46:20.000&nbsp;pm","Claudia
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:20.000&nbsp;pm","ClinChoice
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:20.000&nbsp;pm","Frank Li
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:20.000&nbsp;pm","justin bertrand
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:20.000&nbsp;pm","Rajashekhar C
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+4029,High,"September 20, 2024
+2:46:50.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user Claudia.
+Role: Administrator
+First name:  
+Last name:"
+4029,High,"September 20, 2024
+2:46:51.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user clinchoice_author.
+Role: Administrator
+First name:  
+Last name:"
+4029,High,"September 20, 2024
+2:46:52.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user frank.li@clinchoice.com.
+Role: Administrator
+First name: Frank
+Last name: Li"
+4029,High,"September 20, 2024
+2:46:53.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user justinb.
+Role: Administrator
+First name:  
+Last name:"
+4029,High,"September 20, 2024
+2:46:54.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"Sent a password reset request to the user rajashekhar.c@clinchoice.com.
+Role: Administrator
+First name:  
+Last name:"
+1010,Informational,"September 20, 2024
+2:46:56.000&nbsp;pm","Claudia
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:56.000&nbsp;pm","ClinChoice
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:56.000&nbsp;pm","Frank Li
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:56.000&nbsp;pm","justin bertrand
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1010,Informational,"September 20, 2024
+2:46:56.000&nbsp;pm","Rajashekhar C
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+1001,Low,"September 20, 2024
+2:47:40.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Logout,"User logged out."
+4003,High,"September 20, 2024
+2:47:58.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Modified,"Changed the password.
+Role: 
+First name: 
+Last name: 
+User profile page: http://%EditUserLink%"
+1000,Low,"September 20, 2024
+2:51:42.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1000,Low,"September 20, 2024
+2:51:54.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Login,"User logged in."
+4014,Informational,"September 20, 2024
+2:52:09.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Opened,"Opened the profile page of user clinchoice_author.
+Role: Administrator
+First name: 
+Last name: 
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=11"
+4006,Medium,"September 20, 2024
+2:52:47.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the email address of the user clinchoice_author to mktintl@clinchoice.com.
+Role: Administrator
+First name: 
+Last name: 
+Previous email address: clinchoice_author@klserv.com
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=11"
+1001,Low,"September 20, 2024
+2:56:10.000&nbsp;pm","Claudia
+Administrator",93.70.82.205,User,Logout,"User logged out."
+1001,Low,"September 20, 2024
+3:00:00.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Logout,"User logged out."
+1000,Low,"September 20, 2024
+3:26:48.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Login,"User logged in."
+1000,Low,"September 20, 2024
+4:35:05.000&nbsp;pm","sagefrog
+Administrator",100.14.16.117,User,Login,"User logged in."
+1001,Low,"September 20, 2024
+4:48:14.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Logout,"User logged out."
+1010,Informational,"September 20, 2024
+4:48:38.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Submitted,"User requested a password reset. This does not mean that the password was changed."
+4003,High,"September 20, 2024
+4:50:24.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Modified,"Changed the password.
+Role: 
+First name: 
+Last name: 
+User profile page: http://%EditUserLink%"
+1000,Low,"September 20, 2024
+4:50:38.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Login,"User logged in."
+1001,Low,"September 20, 2024
+4:57:59.000&nbsp;pm","Bill Zhang
+Administrator",108.2.61.11,User,Logout,"User logged out."
+1000,Low,"September 20, 2024
+7:09:05.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+1000,Low,"September 20, 2024
+7:11:06.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Login,"User logged in."
+4015,Low,"September 20, 2024
+7:13:07.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 110
+New value: 0
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:13.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 0
+New value: 110
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:23.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 110
+New value: 7
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:25.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 7
+New value: -1
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:27.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: -1
+New value: 0
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:29.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 0
+New value: 7
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:30.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 7
+New value: 110
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:31.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 110
+New value: 1
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:34.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 1
+New value: 44
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4015,Low,"September 20, 2024
+7:13:35.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Modified,"Changed the value of the custom field fbv_folder_startup in the user profile justinb.
+Role: administrator
+First name: 
+Last name: 
+Previous value: 44
+New value: 47
+User profile page: https://clinchoice.com/wp-admin/user-edit.php?user_id=13
+"
+4029,High,"September 20, 2024
+7:20:35.000&nbsp;pm","justin bertrand
+Administrator",108.24.200.104,User,Submitted,"Sent a password reset request to the user justinb.
+Role: Administrator
+First name:  
+Last name:"
+1002,Medium,"September 20, 2024
+8:02:55.000&nbsp;pm","ClinChoice
+Administrator",185.94.34.106,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+8:02:56.000&nbsp;pm","justin bertrand
+Administrator",185.94.34.106,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+8:02:58.000&nbsp;pm","sagefrog
+Administrator",185.94.34.106,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+8:03:15.000&nbsp;pm","ClinChoice
+Administrator",185.94.34.106,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+8:03:17.000&nbsp;pm","justin bertrand
+Administrator",185.94.34.106,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 20, 2024
+8:03:19.000&nbsp;pm","sagefrog
+Administrator",185.94.34.106,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+5:48:41.000&nbsp;pm","ClinChoice
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+5:48:42.000&nbsp;pm","justin bertrand
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+5:48:43.000&nbsp;pm","sagefrog
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+5:58:53.000&nbsp;pm","ClinChoice
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+5:58:54.000&nbsp;pm","justin bertrand
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+5:58:55.000&nbsp;pm","sagefrog
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:07:35.000&nbsp;pm","ClinChoice
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:07:37.000&nbsp;pm","justin bertrand
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:07:39.000&nbsp;pm","sagefrog
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:16:25.000&nbsp;pm","ClinChoice
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:16:26.000&nbsp;pm","justin bertrand
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:16:28.000&nbsp;pm","sagefrog
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:21:42.000&nbsp;pm","ClinChoice
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:21:44.000&nbsp;pm","justin bertrand
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:21:45.000&nbsp;pm","sagefrog
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:28:34.000&nbsp;pm","ClinChoice
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:28:35.000&nbsp;pm","justin bertrand
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:28:36.000&nbsp;pm","sagefrog
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:44:37.000&nbsp;pm","ClinChoice
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:44:38.000&nbsp;pm","justin bertrand
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:44:39.000&nbsp;pm","sagefrog
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:47:50.000&nbsp;pm","ClinChoice
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:47:51.000&nbsp;pm","justin bertrand
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:47:52.000&nbsp;pm","sagefrog
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:54:56.000&nbsp;pm","ClinChoice
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:54:58.000&nbsp;pm","justin bertrand
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+6:54:59.000&nbsp;pm","sagefrog
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:05:49.000&nbsp;pm","ClinChoice
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:05:51.000&nbsp;pm","justin bertrand
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:05:52.000&nbsp;pm","sagefrog
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:09:09.000&nbsp;pm","ClinChoice
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:09:10.000&nbsp;pm","justin bertrand
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:09:11.000&nbsp;pm","sagefrog
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:31:48.000&nbsp;pm","ClinChoice
+Administrator",193.124.203.243,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:31:49.000&nbsp;pm","justin bertrand
+Administrator",193.124.203.243,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:31:50.000&nbsp;pm","sagefrog
+Administrator",193.124.203.243,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:32:12.000&nbsp;pm","ClinChoice
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:32:13.000&nbsp;pm","justin bertrand
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:32:14.000&nbsp;pm","sagefrog
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:32:17.000&nbsp;pm","ClinChoice
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:32:18.000&nbsp;pm","justin bertrand
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:32:19.000&nbsp;pm","sagefrog
+Administrator",77.221.149.254,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:47:04.000&nbsp;pm","ClinChoice
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:47:05.000&nbsp;pm","justin bertrand
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+7:47:07.000&nbsp;pm","sagefrog
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:03:59.000&nbsp;pm","ClinChoice
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:04:00.000&nbsp;pm","justin bertrand
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:04:03.000&nbsp;pm","sagefrog
+Administrator",85.192.42.220,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:36:24.000&nbsp;pm","ClinChoice
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:36:26.000&nbsp;pm","justin bertrand
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:36:28.000&nbsp;pm","sagefrog
+Administrator",176.124.203.169,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:45:31.000&nbsp;pm","ClinChoice
+Administrator",5.42.84.211,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:45:32.000&nbsp;pm","justin bertrand
+Administrator",5.42.84.211,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:45:34.000&nbsp;pm","sagefrog
+Administrator",5.42.84.211,User,"Failed Login","1 failed login(s)."
+1002,Medium,"September 21, 2024
+8:45:47.000&nbsp;pm","ClinChoice
+Administrator",195.133.28.13,User,"Failed Login","1 failed login(s)."

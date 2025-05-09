@@ -1,0 +1,209 @@
+label {
+  @include font(16,17,14,15);
+  padding: 0 0 6px 20px;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 500;
+}
+#{$input} {
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  border: 1px solid #7a97ab;
+  border-radius: 30px;
+  color: $base;
+  font-size: 17px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  @media (max-width:$mobile){
+    height:34px;
+    font-size:14px;
+  }
+}
+textarea {
+  margin-bottom: 12px;
+  padding: 20px;
+  height: 228px;
+  border-radius: 20px;
+}
+fieldset {
+  @include centerWidth(450px, "max");
+  label {
+    padding: 8px 8px;
+  }
+  .validation_message {
+    margin-top: -2px;
+  }
+}
+.gform_heading {
+  @include centerWidth(655px, max);
+  margin-bottom: 40px;
+  @media (min-width: $mobileL) {
+    text-align: center;
+  }
+}
+.gform_wrapper {
+  h2 {
+    &.gform_submission_error {
+      @include font(16, 19);
+      text-align: center;
+    }
+  }
+}
+.gfield {
+  position: relative;
+}
+.gfield--input-type-consent{
+  label{
+    vertical-align:middle;
+  }
+  @media (max-width:$mobile){
+    label{
+      max-width:calc(100% - 20px);
+    }
+  }
+}
+.gfield--width-half {
+  width: calc(50% - 12px);
+}
+.gfield--type-textarea {
+  @media (min-width: $mobileL) {
+    margin-top: 25px;
+  }
+}
+
+.gform_footer {
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  &:after {
+    @include pseudo(17px, 13px, "../images/arrow-orange.svg", center, center);
+    margin: 3px 0 0 38px;
+    @media (max-width:$mobile){
+      @include size(14px,9px);
+      margin:4px 0 0 31px;
+    }
+  }
+}
+section {
+  input[type="submit"] {
+    display: inline-block !important;
+    position: relative !important;
+    background: #773dbd !important;
+    border: 0px solid transparent !important;
+    border-radius: 25px !important;
+    color: white !important;
+    font-family: "alwyn-new-rounded-web", sans-serif !important;
+    font-weight: 700 !important;
+    letter-spacing: 0 !important;
+    line-height: 100% !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+    cursor: pointer !important;
+    @media (min-width:$mobileL){
+      padding: 10px 42px 9px 23px !important;
+      font-size: 21px !important;
+    }
+  }
+}
+
+.ginput_container_fileupload {
+  input[type="file"] {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    height: 95px;
+    border: 1px solid #7a97ab;
+    border-radius: 20px;
+    background: white;
+    &::file-selector-button {
+      opacity: 0;
+      width: calc(100% - 150px);
+      height: 95px;
+      cursor: pointer;
+    }
+    &:before {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      left: calc(50% - 47px);
+      top: calc(50% - 13px);
+      width: 94px;
+      height: 26px;
+      padding-right: 30px;
+      background: white url("../images/arrow-grey-circle.svg") no-repeat right center;
+      color: #969696;
+      font-family: $paragraph;
+      font-size: 16px;
+      font-weight: 500;
+      pointer-events: none;
+      content: "Upload a File";
+    }
+    &:hover,
+    &:hover:before {
+      background-color: #fafafa;
+    }
+  }
+}
+
+.gform_fileupload_rules {
+  display: none;
+}
+
+.privacy-link {
+  label {
+    a {
+      color: inherit;
+      &:hover {
+        color: $purple;
+      }
+    }
+  }
+}
+
+.validation_message {
+  position: absolute;
+  right: 0;
+  margin: -15px 20px 0 0;
+  color: $purple;
+  font-size: 16px;
+}
+
+// main form, found on contact, rfi/rfp, and investigators
+#form {
+  background: $bluegreen;
+  h2 {
+    @extend .blue-text;
+  }
+  .content {
+    background: #d6e0e8;
+  }
+  .gform_wrapper {
+    @include centerWidth(700px, max);
+  }
+  @media (min-width: $mobileL) {
+    .headline,
+    .text {
+      @include centerWidth(655px, max);
+      text-align: center;
+    }
+    .content {
+      @include centerWidth(960px);
+      padding: 100px 30px;
+      box-shadow: 0px 4px 7px rgba($base, 0.15);
+      border-radius: 15px;
+    }
+  }
+  @media (max-width: $mobile) {
+    padding: 0;
+    .content {
+      padding: 40px 30px;
+      max-width: 100%;
+    }
+  }
+}

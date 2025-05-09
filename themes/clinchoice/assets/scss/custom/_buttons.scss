@@ -1,0 +1,71 @@
+#{$buttons} {
+  transition: none;
+  box-shadow: 0px 4px 7px rgba(black, 0.1);
+  svg {
+    position: absolute;
+    margin: 5px 0 0 5px;
+  }
+  path {
+    fill: $orange;
+  }
+  &:hover {
+    path {
+      fill: $blue;
+    }
+  }
+  &.small {
+    font-size: 18px;
+  }
+  &.arrow {
+    &.reverse {
+      padding-right:23px;
+      &:before {
+        @include pseudo(14px, 11px, "", '','', relative);
+        vertical-align:1px;
+        margin-right:6px;
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11.078"><defs><clipPath id="a1"><path d="M0 0h14v11.078H0z" data-name="Rectangle 70"/></clipPath></defs><g clip-path="url(%23a1)" data-name="Group 63"><path d="M13.721 4.86 9.182.321a.963.963 0 0 0-1.449 1.27.974.974 0 0 0 .087.089l2.894 2.9H.963a.964.964 0 1 0 0 1.927h9.75L7.821 9.4a.963.963 0 0 0 .567 1.679h.076a.963.963 0 0 0 .715-.319l4.541-4.541a.966.966 0 0 0 0-1.359" data-name="Path 135" fill="%23FF9E18" /></g></svg>');
+        transform:scaleX(-1);
+      }
+    }
+  }
+  &.no-arrow {
+    padding: 6px 18px;
+  }
+  @media (max-width: $mobile) {
+    padding: 5px 28px 5px 14px;
+    font-size: $buttonFontSizeMobile;
+    svg {
+      transform: scale(0.7);
+      transform-origin: top left;
+    }
+    &.small {
+      font-size: 14px;
+    }
+  }
+}
+
+.clear-buttons a,
+.button.clear {
+  @include font(19, 20, 16, 17);
+  color: unset;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  &.light {
+    @include font(19, 20, 15, 16);
+    font-weight: 600;
+  }
+  svg {
+    margin-top: 0.3em;
+  }
+  &:hover {
+    background: transparent !important;
+  }
+  &.arrow {
+    padding-right: 17px;
+    &:after {
+      @include pseudo(13px, 11px, "", center, right);
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11.078"><defs><clipPath id="a1"><path d="M0 0h14v11.078H0z" data-name="Rectangle 70"/></clipPath></defs><g clip-path="url(%23a1)" data-name="Group 63"><path d="M13.721 4.86 9.182.321a.963.963 0 0 0-1.449 1.27.974.974 0 0 0 .087.089l2.894 2.9H.963a.964.964 0 1 0 0 1.927h9.75L7.821 9.4a.963.963 0 0 0 .567 1.679h.076a.963.963 0 0 0 .715-.319l4.541-4.541a.966.966 0 0 0 0-1.359" data-name="Path 135" fill="%2300BBB4" /></g></svg>');
+    }
+  }
+}
